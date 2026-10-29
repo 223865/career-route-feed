@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": null,
+  "monitoringMode": "not_started",
+  "importantDisclaimer": "Automated checks have not run yet. After deployment, scheduled checks will detect page-text changes only. A detected change is not a verified policy change; always confirm requirements and fees on the linked official source.",
+  "sources": [
+    {
+      "id": "nz_visas",
+      "country": "New Zealand",
+      "name": "Immigration New Zealand — visa and residence information",
+      "url": "https://www.immigration.govt.nz/",
+      "priority": "critical",
+      "checkedAt": null,
+      "status": "not_checked",
+      "title": ""
+    },
+    {
+      "id": "nz_aeWV",
+      "country": "New Zealand",
+      "name": "Immigration New Zealand — Accredited Employer Work Visa",
+      "url": "https://www.immigration.govt.nz/visas/accredited-employer-work-visa/",
+      "priority": "critical",
+      "checkedAt": null,
+      "status": "not_checked",
+      "title": ""
+    },
+    {
+      "id": "nz_smctech",
+      "country": "New Zealand",
+      "name": "Immigration New Zealand — Skilled Migrant Category trades and technician pathway",
+      "url": "https://www.immigration.govt.nz/live/resident-visas-to-live-in-new-zealand/skilled-residence-pathways-in-new-zealand/skilled-migrant-category-pathway-to-residence/",
+      "priority": "weekly",
+      "checkedAt": null,
+      "status": "not_checked",
+      "title": ""
+    },
+    {
+      "id": "nzqa",
+      "country": "New Zealand",
+      "name": "NZQA — Recognise overseas qualifications",
+      "url": "https://www2.nzqa.govt.nz/international/recognise-overseas-qual/",
+      "priority": "critical",
+      "checkedAt": null,
+      "status": "not_checked",
+      "title": ""
+    },
+    {
+      "id": "ca_language",
+      "country": "Canada",
+      "name": "IRCC — Express Entry approved language tests",
+      "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/documents/language-test.html",
+      "priority": "critical",
+      "checkedAt": null,
+      "status": "not_checked",
+      "title": ""
+    },
+    {
+      "id": "ca_fst",
+      "country": "Canada",
+      "name": "IRCC — Federal Skilled Trades Program",
+      "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/who-can-apply/federal-skilled-trades.html",
+      "priority": "critical",
+      "checkedAt": null,
+      "status": "not_checked",
+      "title": ""
+    },
+    {
+      "id": "ca_fees",
+      "country": "Canada",
+      "name": "IRCC — Fees for economic immigration applications",
+      "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/application/fees.html",
+      "priority": "critical",
+      "checkedAt": null,
+      "status": "not_checked",
+      "title": ""
+    },
+    {
+      "id": "au_visas",
+      "country": "Australia",
+      "name": "Department of Home Affairs — visa listing",
+      "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing",
+      "priority": "critical",
+      "checkedAt": null,
+      "status": "not_checked",
+      "title": ""
+    },
+    {
+      "id": "au_fees",
+      "country": "Australia",
+      "name": "Department of Home Affairs — visa pricing estimator",
+      "url": "https://immi.homeaffairs.gov.au/visas/visa-pricing-estimator",
+      "priority": "critical",
+      "checkedAt": null,
+      "status": "not_checked",
+      "title": ""
+    },
+    {
+      "id": "au_tra",
+      "country": "Australia",
+      "name": "Trades Recognition Australia",
+      "url": "https://www.tradesrecognitionaustralia.gov.au/",
+      "priority": "weekly",
+      "checkedAt": null,
+      "status": "not_checked",
+      "title": ""
+    }
+  ],
+  "events": [],
+  "failures": [],
+  "newChangesDetected": 0,
+  "checksSucceeded": 0,
+  "checksFailed": 0
+}
