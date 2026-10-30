@@ -55,13 +55,14 @@ def get_html(url):
             last = e
             time.sleep(3)
     if shutil.which("curl"):  # some sites only answer curl-style connections
-        cmd = ["curl", "-sSL", "--compressed", "--max-time", "60", "--retry", "2"]
-        for k, v in HEADERS.items():
-            cmd += ["-H", f"{k}: {v}"]
-        p = subprocess.run(cmd + [url], capture_output=True, timeout=240)
-        if p.returncode == 0 and p.stdout:
-            return p.stdout.decode("utf-8", errors="replace")
-        last = f"{last}; curl exit {p.returncode} {p.stderr.decode()[:80]}"
+        for mode in (["--http1.1"], []):  # HTTP/1.1 first, then default HTTP/2
+            cmd = ["curl", "-sSL", "--compressed", "--max-time", "45"] + mode
+            for k, v in HEADERS.items():
+                cmd += ["-H", f"{k}: {v}"]
+            p = subprocess.run(cmd + [url], capture_output=True, timeout=120)
+            if p.returncode == 0 and p.stdout:
+                return p.stdout.decode("utf-8", errors="replace")
+            last = f"{last}; curl{' '.join(mode)} exit {p.returncode}"
     raise RuntimeError(str(last))
 
 
