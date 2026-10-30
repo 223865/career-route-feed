@@ -1,0 +1,24 @@
+name: Monitor official sources
+on:
+  schedule:
+    - cron: '0 20 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run checks
+        run: python monitor.py
+      - name: Save results
+        run: |
+          git config user.name "career-route-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add updates.json state.json
+          git diff --cached --quiet || git commit -m "Update official-source feed"
+          git push
