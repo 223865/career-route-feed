@@ -3,13 +3,12 @@
 Fetches each page in updates.json, hashes its visible text, and flags a
 change for HUMAN REVIEW when the hash differs from the last run.
 Standard library only."""
-import hashlib, json, os, re, sys, urllib.request
+import hashlib, json, os, re, shutil, subprocess, sys, time, urllib.request
 from datetime import datetime, timezone, timedelta
 from html.parser import HTMLParser
 
 FEED = "updates.json"
 STATE = "state.json"
-UA = "Mozilla/5.0 (compatible; CareerRouteMonitor/1.0; personal use)"
 SKIP = {"script", "style", "noscript", "svg", "head"}
 
 
@@ -37,10 +36,37 @@ class Text(HTMLParser):
             self.parts.append(data)
 
 
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Upgrade-Insecure-Requests": "1",
+}
+
+
+def get_html(url):
+    last = None
+    for _ in range(2):  # plain Python request, one retry
+        try:
+            req = urllib.request.Request(url, headers=HEADERS)
+            with urllib.request.urlopen(req, timeout=40) as r:
+                return r.read().decode("utf-8", errors="replace")
+        except Exception as e:
+            last = e
+            time.sleep(3)
+    if shutil.which("curl"):  # some sites only answer curl-style connections
+        cmd = ["curl", "-sSL", "--compressed", "--max-time", "60", "--retry", "2"]
+        for k, v in HEADERS.items():
+            cmd += ["-H", f"{k}: {v}"]
+        p = subprocess.run(cmd + [url], capture_output=True, timeout=240)
+        if p.returncode == 0 and p.stdout:
+            return p.stdout.decode("utf-8", errors="replace")
+        last = f"{last}; curl exit {p.returncode} {p.stderr.decode()[:80]}"
+    raise RuntimeError(str(last))
+
+
 def fetch(url):
-    req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "text/html"})
-    with urllib.request.urlopen(req, timeout=30) as r:
-        html = r.read().decode("utf-8", errors="replace")
+    html = get_html(url)
     p = Text()
     p.feed(html)
     text = re.sub(r"\s+", " ", " ".join(p.parts)).strip()
