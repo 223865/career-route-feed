@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": null,
-  "monitoringMode": "not_started",
-  "importantDisclaimer": "Automated checks have not run yet. After deployment, scheduled checks will detect page-text changes only. A detected change is not a verified policy change; always confirm requirements and fees on the linked official source.",
+  "generatedAt": "2026-10-30T08:29:02Z",
+  "monitoringMode": "scheduled",
+  "importantDisclaimer": "Scheduled checks detect page-text changes only. A detected change is not a verified policy change; always confirm requirements and fees on the linked official source.",
   "sources": [
     {
       "id": "nz_visas",
@@ -10,9 +10,9 @@
       "name": "Immigration New Zealand — visa and residence information",
       "url": "https://www.immigration.govt.nz/",
       "priority": "critical",
-      "checkedAt": null,
-      "status": "not_checked",
-      "title": ""
+      "checkedAt": "2026-10-30T08:29:02Z",
+      "status": "ok",
+      "title": "Immigration New Zealand :: Immigration New Zealand"
     },
     {
       "id": "nz_aeWV",
@@ -20,9 +20,9 @@
       "name": "Immigration New Zealand — Accredited Employer Work Visa",
       "url": "https://www.immigration.govt.nz/visas/accredited-employer-work-visa/",
       "priority": "critical",
-      "checkedAt": null,
-      "status": "not_checked",
-      "title": ""
+      "checkedAt": "2026-10-30T08:29:02Z",
+      "status": "ok",
+      "title": "Accredited Employer Work Visa » Immigration New ZealandAccredited Employer Work Visa :: Immigration New Zealand"
     },
     {
       "id": "nz_smctech",
@@ -30,9 +30,9 @@
       "name": "Immigration New Zealand — Skilled Migrant Category trades and technician pathway",
       "url": "https://www.immigration.govt.nz/live/resident-visas-to-live-in-new-zealand/skilled-residence-pathways-in-new-zealand/skilled-migrant-category-pathway-to-residence/",
       "priority": "weekly",
-      "checkedAt": null,
-      "status": "not_checked",
-      "title": ""
+      "checkedAt": "2026-10-30T08:29:02Z",
+      "status": "ok",
+      "title": "Getting New Zealand residence through the Skilled Migrant Category (SMC) :: Immigration New Zealand"
     },
     {
       "id": "nzqa",
@@ -40,9 +40,9 @@
       "name": "NZQA — Recognise overseas qualifications",
       "url": "https://www2.nzqa.govt.nz/international/recognise-overseas-qual/",
       "priority": "critical",
-      "checkedAt": null,
-      "status": "not_checked",
-      "title": ""
+      "checkedAt": "2026-10-30T08:29:02Z",
+      "status": "ok",
+      "title": "Getting overseas qualifications recognised by NZQA - NZQA"
     },
     {
       "id": "ca_language",
@@ -50,8 +50,8 @@
       "name": "IRCC — Express Entry approved language tests",
       "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/documents/language-test.html",
       "priority": "critical",
-      "checkedAt": null,
-      "status": "not_checked",
+      "checkedAt": "2026-10-30T08:29:02Z",
+      "status": "check_failed",
       "title": ""
     },
     {
@@ -60,8 +60,8 @@
       "name": "IRCC — Federal Skilled Trades Program",
       "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/who-can-apply/federal-skilled-trades.html",
       "priority": "critical",
-      "checkedAt": null,
-      "status": "not_checked",
+      "checkedAt": "2026-10-30T08:29:02Z",
+      "status": "check_failed",
       "title": ""
     },
     {
@@ -70,8 +70,8 @@
       "name": "IRCC — Fees for economic immigration applications",
       "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/application/fees.html",
       "priority": "critical",
-      "checkedAt": null,
-      "status": "not_checked",
+      "checkedAt": "2026-10-30T08:29:02Z",
+      "status": "check_failed",
       "title": ""
     },
     {
@@ -80,9 +80,9 @@
       "name": "Department of Home Affairs — visa listing",
       "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing",
       "priority": "critical",
-      "checkedAt": null,
-      "status": "not_checked",
-      "title": ""
+      "checkedAt": "2026-10-30T08:29:02Z",
+      "status": "ok",
+      "title": "Visa list"
     },
     {
       "id": "au_fees",
@@ -90,9 +90,9 @@
       "name": "Department of Home Affairs — visa pricing estimator",
       "url": "https://immi.homeaffairs.gov.au/visas/visa-pricing-estimator",
       "priority": "critical",
-      "checkedAt": null,
-      "status": "not_checked",
-      "title": ""
+      "checkedAt": "2026-10-30T08:29:02Z",
+      "status": "ok",
+      "title": "Visa pricing estimator"
     },
     {
       "id": "au_tra",
@@ -100,14 +100,39 @@
       "name": "Trades Recognition Australia",
       "url": "https://www.tradesrecognitionaustralia.gov.au/",
       "priority": "weekly",
-      "checkedAt": null,
-      "status": "not_checked",
+      "checkedAt": "2026-10-30T08:29:02Z",
+      "status": "check_failed",
       "title": ""
     }
   ],
   "events": [],
-  "failures": [],
+  "failures": [
+    {
+      "id": "ca_language",
+      "name": "IRCC — Express Entry approved language tests",
+      "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/documents/language-test.html",
+      "error": "The read operation timed out"
+    },
+    {
+      "id": "ca_fst",
+      "name": "IRCC — Federal Skilled Trades Program",
+      "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/who-can-apply/federal-skilled-trades.html",
+      "error": "The read operation timed out"
+    },
+    {
+      "id": "ca_fees",
+      "name": "IRCC — Fees for economic immigration applications",
+      "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/application/fees.html",
+      "error": "The read operation timed out"
+    },
+    {
+      "id": "au_tra",
+      "name": "Trades Recognition Australia",
+      "url": "https://www.tradesrecognitionaustralia.gov.au/",
+      "error": "The read operation timed out"
+    }
+  ],
   "newChangesDetected": 0,
-  "checksSucceeded": 0,
-  "checksFailed": 0
+  "checksSucceeded": 6,
+  "checksFailed": 4
 }
