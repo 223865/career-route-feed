@@ -8,6 +8,10 @@ from datetime import datetime, timezone, timedelta
 from html.parser import HTMLParser
 
 FEED = "updates.json"
+# These sites cut off automated requests from GitHub's servers (confirmed 30 Oct 2026),
+# so they are listed as "check by hand" instead of waiting minutes for a timeout.
+# Set the environment variable TRY_BLOCKED=1 to try them again.
+MANUAL = {"ca_language", "ca_fst", "ca_fees", "au_tra"}
 STATE = "state.json"
 SKIP = {"script", "style", "noscript", "svg", "head"}
 
@@ -87,6 +91,12 @@ def main():
     for s in feed["sources"]:
         sid = s["id"]
         prev = state.get(sid, {})
+        if sid in MANUAL and os.environ.get("TRY_BLOCKED") != "1":
+            s["status"], s["checkedAt"] = "manual_check", stamp
+            failures.append({"id": sid, "name": s["name"], "url": s["url"],
+                             "error": "Blocks automatic checks. Open it and check by hand about once a week."})
+            bad += 1
+            continue
         due = force or s.get("priority") == "critical" or now.weekday() == 0 or not prev.get("hash")
         if not due:
             continue
