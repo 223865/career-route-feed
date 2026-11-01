@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-31T20:29:00Z",
+  "generatedAt": "2026-11-01T20:29:35Z",
   "monitoringMode": "scheduled",
   "importantDisclaimer": "Scheduled checks detect page-text changes only. A detected change is not a verified policy change; always confirm requirements and fees on the linked official source.",
   "sources": [
@@ -10,7 +10,7 @@
       "name": "Immigration New Zealand — visa and residence information",
       "url": "https://www.immigration.govt.nz/",
       "priority": "critical",
-      "checkedAt": "2026-10-31T20:29:00Z",
+      "checkedAt": "2026-11-01T20:29:35Z",
       "status": "ok",
       "title": "Immigration New Zealand :: Immigration New Zealand"
     },
@@ -20,7 +20,7 @@
       "name": "Immigration New Zealand — Accredited Employer Work Visa",
       "url": "https://www.immigration.govt.nz/visas/accredited-employer-work-visa/",
       "priority": "critical",
-      "checkedAt": "2026-10-31T20:29:00Z",
+      "checkedAt": "2026-11-01T20:29:35Z",
       "status": "ok",
       "title": "Accredited Employer Work Visa » Immigration New ZealandAccredited Employer Work Visa :: Immigration New Zealand"
     },
@@ -40,7 +40,7 @@
       "name": "NZQA — Recognise overseas qualifications",
       "url": "https://www2.nzqa.govt.nz/international/recognise-overseas-qual/",
       "priority": "critical",
-      "checkedAt": "2026-10-31T20:29:00Z",
+      "checkedAt": "2026-11-01T20:29:35Z",
       "status": "ok",
       "title": "Getting overseas qualifications recognised by NZQA - NZQA"
     },
@@ -50,7 +50,7 @@
       "name": "IRCC — Express Entry approved language tests",
       "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/documents/language-test.html",
       "priority": "critical",
-      "checkedAt": "2026-10-31T20:29:00Z",
+      "checkedAt": "2026-11-01T20:29:35Z",
       "status": "manual_check",
       "title": ""
     },
@@ -60,7 +60,7 @@
       "name": "IRCC — Federal Skilled Trades Program",
       "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/who-can-apply/federal-skilled-trades.html",
       "priority": "critical",
-      "checkedAt": "2026-10-31T20:29:00Z",
+      "checkedAt": "2026-11-01T20:29:35Z",
       "status": "manual_check",
       "title": ""
     },
@@ -70,7 +70,7 @@
       "name": "IRCC — Fees for economic immigration applications",
       "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/application/fees.html",
       "priority": "critical",
-      "checkedAt": "2026-10-31T20:29:00Z",
+      "checkedAt": "2026-11-01T20:29:35Z",
       "status": "manual_check",
       "title": ""
     },
@@ -80,7 +80,7 @@
       "name": "Department of Home Affairs — visa listing",
       "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing",
       "priority": "critical",
-      "checkedAt": "2026-10-31T20:29:00Z",
+      "checkedAt": "2026-11-01T20:29:35Z",
       "status": "ok",
       "title": "Visa list"
     },
@@ -90,7 +90,7 @@
       "name": "Department of Home Affairs — visa pricing estimator",
       "url": "https://immi.homeaffairs.gov.au/visas/visa-pricing-estimator",
       "priority": "critical",
-      "checkedAt": "2026-10-31T20:29:00Z",
+      "checkedAt": "2026-11-01T20:29:35Z",
       "status": "ok",
       "title": "Visa pricing estimator"
     },
@@ -100,7 +100,7 @@
       "name": "Trades Recognition Australia",
       "url": "https://www.tradesrecognitionaustralia.gov.au/",
       "priority": "weekly",
-      "checkedAt": "2026-10-31T20:29:00Z",
+      "checkedAt": "2026-11-01T20:29:35Z",
       "status": "manual_check",
       "title": ""
     }
