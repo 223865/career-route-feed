@@ -1,6 +1,6 @@
 {
-  "version": "3.2.0",
-  "notes": "v3.2.0: backups you can save to Drive, open and share uploaded files, backup reminder.",
+  "version": "3.3.0",
+  "notes": "v3.3.0: optional account with online sync between phone and laptop.",
   "pathwayReviewDate": "2026-10-28",
   "pathwayNotes": []
 }
