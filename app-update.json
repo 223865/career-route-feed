@@ -1,6 +1,6 @@
 {
-  "version": "3.4.0",
-  "notes": "v3.4.0: sign-in required, one country per account.",
+  "version": "3.4.1",
+  "notes": "v3.4.1: Updates page text now reflects live monitoring.",
   "pathwayReviewDate": "2026-10-28",
   "pathwayNotes": []
 }
