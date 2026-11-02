@@ -1,6 +1,6 @@
 {
-  "version": "3.3.0",
-  "notes": "v3.3.0: optional account with online sync between phone and laptop.",
+  "version": "3.4.0",
+  "notes": "v3.4.0: sign-in required, one country per account.",
   "pathwayReviewDate": "2026-10-28",
   "pathwayNotes": []
 }
