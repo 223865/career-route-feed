@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-02T20:39:49Z",
+  "generatedAt": "2026-11-03T18:37:29Z",
   "monitoringMode": "scheduled",
   "importantDisclaimer": "Scheduled checks detect page-text changes only. A detected change is not a verified policy change; always confirm requirements and fees on the linked official source.",
   "sources": [
@@ -10,8 +10,8 @@
       "name": "Immigration New Zealand — visa and residence information",
       "url": "https://www.immigration.govt.nz/",
       "priority": "critical",
-      "checkedAt": "2026-11-02T20:39:49Z",
-      "status": "ok",
+      "checkedAt": "2026-11-03T18:37:29Z",
+      "status": "changed",
       "title": "Immigration New Zealand :: Immigration New Zealand"
     },
     {
@@ -20,7 +20,7 @@
       "name": "Immigration New Zealand — Accredited Employer Work Visa",
       "url": "https://www.immigration.govt.nz/visas/accredited-employer-work-visa/",
       "priority": "critical",
-      "checkedAt": "2026-11-02T20:39:49Z",
+      "checkedAt": "2026-11-03T18:37:29Z",
       "status": "ok",
       "title": "Accredited Employer Work Visa » Immigration New ZealandAccredited Employer Work Visa :: Immigration New Zealand"
     },
@@ -40,7 +40,7 @@
       "name": "NZQA — Recognise overseas qualifications",
       "url": "https://www2.nzqa.govt.nz/international/recognise-overseas-qual/",
       "priority": "critical",
-      "checkedAt": "2026-11-02T20:39:49Z",
+      "checkedAt": "2026-11-03T18:37:29Z",
       "status": "ok",
       "title": "Getting overseas qualifications recognised by NZQA - NZQA"
     },
@@ -50,7 +50,7 @@
       "name": "IRCC — Express Entry approved language tests",
       "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/documents/language-test.html",
       "priority": "critical",
-      "checkedAt": "2026-11-02T20:39:49Z",
+      "checkedAt": "2026-11-03T18:37:29Z",
       "status": "manual_check",
       "title": ""
     },
@@ -60,7 +60,7 @@
       "name": "IRCC — Federal Skilled Trades Program",
       "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/who-can-apply/federal-skilled-trades.html",
       "priority": "critical",
-      "checkedAt": "2026-11-02T20:39:49Z",
+      "checkedAt": "2026-11-03T18:37:29Z",
       "status": "manual_check",
       "title": ""
     },
@@ -70,7 +70,7 @@
       "name": "IRCC — Fees for economic immigration applications",
       "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/application/fees.html",
       "priority": "critical",
-      "checkedAt": "2026-11-02T20:39:49Z",
+      "checkedAt": "2026-11-03T18:37:29Z",
       "status": "manual_check",
       "title": ""
     },
@@ -80,7 +80,7 @@
       "name": "Department of Home Affairs — visa listing",
       "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing",
       "priority": "critical",
-      "checkedAt": "2026-11-02T20:39:49Z",
+      "checkedAt": "2026-11-03T18:37:29Z",
       "status": "ok",
       "title": "Visa list"
     },
@@ -90,7 +90,7 @@
       "name": "Department of Home Affairs — visa pricing estimator",
       "url": "https://immi.homeaffairs.gov.au/visas/visa-pricing-estimator",
       "priority": "critical",
-      "checkedAt": "2026-11-02T20:39:49Z",
+      "checkedAt": "2026-11-03T18:37:29Z",
       "status": "ok",
       "title": "Visa pricing estimator"
     },
@@ -100,12 +100,505 @@
       "name": "Trades Recognition Australia",
       "url": "https://www.tradesrecognitionaustralia.gov.au/",
       "priority": "weekly",
-      "checkedAt": "2026-11-02T20:39:49Z",
+      "checkedAt": "2026-11-03T18:37:29Z",
       "status": "manual_check",
+      "title": ""
+    },
+    {
+      "id": "reg_ac9fccbc",
+      "country": "Canada",
+      "name": "Red Seal Program",
+      "url": "https://www.red-seal.ca/",
+      "priority": "weekly",
+      "careers": [
+        "carpenter",
+        "plumber",
+        "bricklayer",
+        "electrician",
+        "hvacr",
+        "motor_mech",
+        "auto_elec",
+        "diesel",
+        "panel",
+        "welder",
+        "fitter"
+      ],
+      "checkedAt": "2026-11-03T18:37:29Z",
+      "status": "check_failed",
+      "title": ""
+    },
+    {
+      "id": "reg_924f99eb",
+      "country": "New Zealand",
+      "name": "Plumbers, Gasfitters and Drainlayers Board",
+      "url": "https://www.pgdb.co.nz/",
+      "priority": "weekly",
+      "careers": [
+        "plumber"
+      ],
+      "checkedAt": "2026-11-03T18:37:29Z",
+      "status": "ok",
+      "title": "Plumbers, Gasfitters, and Drainlayers BoardHome Page"
+    },
+    {
+      "id": "reg_e1bca6fe",
+      "country": "New Zealand",
+      "name": "Electrical Workers Registration Board (EWRB)",
+      "url": "https://www.ewrb.govt.nz/",
+      "priority": "weekly",
+      "careers": [
+        "electrician"
+      ],
+      "checkedAt": "2026-11-03T18:37:29Z",
+      "status": "ok",
+      "title": "Electrical Workers Registration Board"
+    },
+    {
+      "id": "reg_41ed5893",
+      "country": "New Zealand",
+      "name": "Teaching Council of Aotearoa New Zealand",
+      "url": "https://teachingcouncil.nz/",
+      "priority": "weekly",
+      "careers": [
+        "teacher_pri",
+        "teacher_sec",
+        "teacher_ece"
+      ],
+      "checkedAt": "2026-11-03T18:37:29Z",
+      "status": "ok",
+      "title": "Home"
+    },
+    {
+      "id": "reg_0b478604",
+      "country": "Canada",
+      "name": "Provincial regulator (find yours on CICIC)",
+      "url": "https://www.cicic.ca/",
+      "priority": "weekly",
+      "careers": [
+        "teacher_pri",
+        "teacher_sec",
+        "teacher_ece",
+        "nurse",
+        "midwife",
+        "doctor",
+        "pharmacist",
+        "physio",
+        "mls",
+        "radiographer",
+        "dentist"
+      ],
+      "checkedAt": "2026-11-03T18:37:29Z",
+      "status": "ok",
+      "title": "Canadian Information Centre for International Credentials"
+    },
+    {
+      "id": "reg_59fd0125",
+      "country": "Canada",
+      "name": "Educational Credential Assessment (for Express Entry)",
+      "url": "https://www.wes.org/ca/",
+      "priority": "weekly",
+      "careers": [
+        "teacher_pri",
+        "teacher_sec",
+        "teacher_ece"
+      ],
+      "checkedAt": "2026-11-03T18:37:29Z",
+      "status": "ok",
+      "title": "International Credential Evaluation Services | NACES Member - WES"
+    },
+    {
+      "id": "reg_7022d65d",
+      "country": "Australia",
+      "name": "AITSL — skills assessment for teachers",
+      "url": "https://www.aitsl.edu.au/",
+      "priority": "weekly",
+      "careers": [
+        "teacher_pri",
+        "teacher_sec",
+        "teacher_ece"
+      ],
+      "checkedAt": "2026-11-03T18:37:29Z",
+      "status": "ok",
+      "title": "AITSLAITSL - Australian Institute for Teaching and School Leadership"
+    },
+    {
+      "id": "reg_4558464a",
+      "country": "New Zealand",
+      "name": "Nursing Council of New Zealand",
+      "url": "https://www.nursingcouncil.org.nz/",
+      "priority": "weekly",
+      "careers": [
+        "nurse"
+      ],
+      "checkedAt": "2026-11-03T18:37:29Z",
+      "status": "ok",
+      "title": "Home"
+    },
+    {
+      "id": "reg_d1ddd6b1",
+      "country": "Canada",
+      "name": "National Nursing Assessment Service (NNAS)",
+      "url": "https://www.nnas.ca/",
+      "priority": "weekly",
+      "careers": [
+        "nurse"
+      ],
+      "checkedAt": "2026-11-03T18:37:29Z",
+      "status": "ok",
+      "title": "Start your nursing journey in Canada. - National Nursing Assessment Service"
+    },
+    {
+      "id": "reg_43469408",
+      "country": "Australia",
+      "name": "ANMAC — skills assessment for nurses and midwives",
+      "url": "https://www.anmac.org.au/",
+      "priority": "weekly",
+      "careers": [
+        "nurse",
+        "midwife"
+      ],
+      "checkedAt": "2026-11-03T18:37:29Z",
+      "status": "check_failed",
+      "title": ""
+    },
+    {
+      "id": "reg_c4649de9",
+      "country": "Australia",
+      "name": "Nursing and Midwifery Board of Australia (AHPRA)",
+      "url": "https://www.nursingmidwiferyboard.gov.au/",
+      "priority": "weekly",
+      "careers": [
+        "nurse",
+        "midwife"
+      ],
+      "checkedAt": "2026-11-03T18:37:29Z",
+      "status": "check_failed",
+      "title": ""
+    },
+    {
+      "id": "reg_8352b41d",
+      "country": "New Zealand",
+      "name": "Midwifery Council of New Zealand",
+      "url": "https://www.midwiferycouncil.health.nz/",
+      "priority": "weekly",
+      "careers": [
+        "midwife"
+      ],
+      "checkedAt": "2026-11-03T18:37:29Z",
+      "status": "ok",
+      "title": "Home Page - Midwifery Council"
+    },
+    {
+      "id": "reg_7f3da213",
+      "country": "New Zealand",
+      "name": "Medical Council of New Zealand",
+      "url": "https://www.mcnz.org.nz/",
+      "priority": "weekly",
+      "careers": [
+        "doctor"
+      ],
+      "checkedAt": "2026-11-03T18:37:29Z",
+      "status": "ok",
+      "title": "Medical Council of New Zealand · Te Kaunihera Rata o Aotearoa"
+    },
+    {
+      "id": "reg_40c560bc",
+      "country": "Canada",
+      "name": "Medical Council of Canada",
+      "url": "https://mcc.ca/",
+      "priority": "weekly",
+      "careers": [
+        "doctor"
+      ],
+      "checkedAt": "2026-11-03T18:37:29Z",
+      "status": "check_failed",
+      "title": ""
+    },
+    {
+      "id": "reg_364c705d",
+      "country": "Australia",
+      "name": "Australian Medical Council (AMC)",
+      "url": "https://www.amc.org.au/",
+      "priority": "weekly",
+      "careers": [
+        "doctor"
+      ],
+      "checkedAt": "2026-11-03T18:37:29Z",
+      "status": "ok",
+      "title": "Australian Medical Council | The AMC’s purpose is to ensure that standards of education, training and assessment of the medical profession promote and protect the health of the Australian community."
+    },
+    {
+      "id": "reg_522c92c0",
+      "country": "Australia",
+      "name": "Medical Board of Australia (AHPRA)",
+      "url": "https://www.medicalboard.gov.au/",
+      "priority": "weekly",
+      "careers": [
+        "doctor"
+      ],
+      "checkedAt": "2026-11-03T18:37:29Z",
+      "status": "check_failed",
+      "title": ""
+    },
+    {
+      "id": "reg_5c01ac29",
+      "country": "New Zealand",
+      "name": "Pharmacy Council of New Zealand",
+      "url": "https://www.pharmacycouncil.org.nz/",
+      "priority": "weekly",
+      "careers": [
+        "pharmacist"
+      ],
+      "checkedAt": "2026-11-03T18:37:29Z",
+      "status": "ok",
+      "title": "Home-Page - Pharmacy Council NZ - Public Site"
+    },
+    {
+      "id": "reg_649f497a",
+      "country": "Canada",
+      "name": "Pharmacy Examining Board of Canada (PEBC)",
+      "url": "https://www.pebc.ca/",
+      "priority": "weekly",
+      "careers": [
+        "pharmacist"
+      ],
+      "checkedAt": "2026-11-03T18:37:29Z",
+      "status": "ok",
+      "title": "Home - PEBC"
+    },
+    {
+      "id": "reg_bd35ec76",
+      "country": "Australia",
+      "name": "Australian Pharmacy Council",
+      "url": "https://www.pharmacycouncil.org.au/",
+      "priority": "weekly",
+      "careers": [
+        "pharmacist"
+      ],
+      "checkedAt": "2026-11-03T18:37:29Z",
+      "status": "ok",
+      "title": "Home | Australian Pharmacy Council"
+    },
+    {
+      "id": "reg_3289f93f",
+      "country": "Australia",
+      "name": "Pharmacy Board of Australia (AHPRA)",
+      "url": "https://www.pharmacyboard.gov.au/",
+      "priority": "weekly",
+      "careers": [
+        "pharmacist"
+      ],
+      "checkedAt": "2026-11-03T18:37:29Z",
+      "status": "check_failed",
+      "title": ""
+    },
+    {
+      "id": "reg_f3dbbf2a",
+      "country": "New Zealand",
+      "name": "Physiotherapy Board of New Zealand",
+      "url": "https://www.physioboard.org.nz/",
+      "priority": "weekly",
+      "careers": [
+        "physio"
+      ],
+      "checkedAt": "2026-11-03T18:37:29Z",
+      "status": "ok",
+      "title": "Home - Physiotherapy Board of New Zealand"
+    },
+    {
+      "id": "reg_e2d76195",
+      "country": "Canada",
+      "name": "Canadian Alliance of Physiotherapy Regulators",
+      "url": "https://www.alliancept.org/",
+      "priority": "weekly",
+      "careers": [
+        "physio"
+      ],
+      "checkedAt": "2026-11-03T18:37:29Z",
+      "status": "ok",
+      "title": "Home - Canadian Alliance of Physiotherapy RegulatorsCareer OpportunitiesVolunteer Opportunities"
+    },
+    {
+      "id": "reg_42c5aaf2",
+      "country": "Australia",
+      "name": "Australian Physiotherapy Council",
+      "url": "https://physiocouncil.com.au/",
+      "priority": "weekly",
+      "careers": [
+        "physio"
+      ],
+      "checkedAt": "2026-11-03T18:37:29Z",
+      "status": "ok",
+      "title": "Australian Physiotherapy Council • Ensuring the quality of tomorrow's physios"
+    },
+    {
+      "id": "reg_57322507",
+      "country": "Australia",
+      "name": "Physiotherapy Board of Australia (AHPRA)",
+      "url": "https://www.physiotherapyboard.gov.au/",
+      "priority": "weekly",
+      "careers": [
+        "physio"
+      ],
+      "checkedAt": "2026-11-03T18:37:29Z",
+      "status": "check_failed",
+      "title": ""
+    },
+    {
+      "id": "reg_62312892",
+      "country": "New Zealand",
+      "name": "Medical Sciences Council of New Zealand",
+      "url": "https://www.mscouncil.org.nz/",
+      "priority": "weekly",
+      "careers": [
+        "mls"
+      ],
+      "checkedAt": "2026-11-03T18:37:29Z",
+      "status": "ok",
+      "title": "Home | Medical Sciences Council of New Zealand"
+    },
+    {
+      "id": "reg_6f9b0736",
+      "country": "Canada",
+      "name": "Canadian Society for Medical Laboratory Science (CSMLS)",
+      "url": "https://www.csmls.org/",
+      "priority": "weekly",
+      "careers": [
+        "mls"
+      ],
+      "checkedAt": "2026-11-03T18:37:29Z",
+      "status": "check_failed",
+      "title": ""
+    },
+    {
+      "id": "reg_2f94c01e",
+      "country": "Australia",
+      "name": "Australian Institute of Medical and Clinical Scientists (AIMS)",
+      "url": "https://www.aims.org.au/",
+      "priority": "weekly",
+      "careers": [
+        "mls"
+      ],
+      "checkedAt": "2026-11-03T18:37:29Z",
+      "status": "ok",
+      "title": "Home | AIMS"
+    },
+    {
+      "id": "reg_6f38ed42",
+      "country": "New Zealand",
+      "name": "Medical Radiation Technologists Board",
+      "url": "https://www.mrtboard.org.nz/",
+      "priority": "weekly",
+      "careers": [
+        "radiographer"
+      ],
+      "checkedAt": "2026-11-03T18:37:29Z",
+      "status": "ok",
+      "title": "Home | Medical Radiation Technologists Board"
+    },
+    {
+      "id": "reg_f6f4152d",
+      "country": "Canada",
+      "name": "Canadian Association of Medical Radiation Technologists (CAMRT)",
+      "url": "https://www.camrt.ca/",
+      "priority": "weekly",
+      "careers": [
+        "radiographer"
+      ],
+      "checkedAt": "2026-11-03T18:37:29Z",
+      "status": "ok",
+      "title": "Canadian Association of Medical Radiation Technologists"
+    },
+    {
+      "id": "reg_42f9d507",
+      "country": "Australia",
+      "name": "ASMIRT — skills assessment",
+      "url": "https://www.asmirt.org/",
+      "priority": "weekly",
+      "careers": [
+        "radiographer"
+      ],
+      "checkedAt": "2026-11-03T18:37:29Z",
+      "status": "ok",
+      "title": "Home - ASMIRTsearchclosechevron-rightchevron-downshopping-cartphonefacebookbarsenvelopelinkedininstagramuser-o"
+    },
+    {
+      "id": "reg_a3bac84b",
+      "country": "Australia",
+      "name": "Medical Radiation Practice Board of Australia (AHPRA)",
+      "url": "https://www.medicalradiationpracticeboard.gov.au/",
+      "priority": "weekly",
+      "careers": [
+        "radiographer"
+      ],
+      "checkedAt": "2026-11-03T18:37:29Z",
+      "status": "check_failed",
+      "title": ""
+    },
+    {
+      "id": "reg_24290eae",
+      "country": "New Zealand",
+      "name": "Dental Council of New Zealand",
+      "url": "https://www.dcnz.org.nz/",
+      "priority": "weekly",
+      "careers": [
+        "dentist"
+      ],
+      "checkedAt": "2026-11-03T18:37:29Z",
+      "status": "ok",
+      "title": "Protecting the health and safety of patients » Dental Council"
+    },
+    {
+      "id": "reg_420445f9",
+      "country": "Canada",
+      "name": "National Dental Examining Board of Canada (NDEB)",
+      "url": "https://ndeb-bned.ca/",
+      "priority": "weekly",
+      "careers": [
+        "dentist"
+      ],
+      "checkedAt": "2026-11-03T18:37:29Z",
+      "status": "ok",
+      "title": "Home - The National Dental Examining Board of Canada"
+    },
+    {
+      "id": "reg_311a60ec",
+      "country": "Australia",
+      "name": "Australian Dental Council",
+      "url": "https://www.adc.org.au/",
+      "priority": "weekly",
+      "careers": [
+        "dentist"
+      ],
+      "checkedAt": "2026-11-03T18:37:29Z",
+      "status": "ok",
+      "title": "Home | The Australian Dental Council"
+    },
+    {
+      "id": "reg_df307455",
+      "country": "Australia",
+      "name": "Dental Board of Australia (AHPRA)",
+      "url": "https://www.dentalboard.gov.au/",
+      "priority": "weekly",
+      "careers": [
+        "dentist"
+      ],
+      "checkedAt": "2026-11-03T18:37:29Z",
+      "status": "check_failed",
       "title": ""
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "id": "nz_visas",
+      "country": "New Zealand",
+      "title": "Immigration New Zealand — visa and residence information",
+      "url": "https://www.immigration.govt.nz/",
+      "detectedAt": "2026-11-03T18:37:29Z",
+      "status": "needs_human_review",
+      "message": "Page text changed since the last check. This may be minor (dates, wording). Open the source and confirm before acting."
+    }
+  ],
   "failures": [
     {
       "id": "ca_language",
@@ -130,9 +623,69 @@
       "name": "Trades Recognition Australia",
       "url": "https://www.tradesrecognitionaustralia.gov.au/",
       "error": "Blocks automatic checks. Open it and check by hand about once a week."
+    },
+    {
+      "id": "reg_ac9fccbc",
+      "name": "Red Seal Program",
+      "url": "https://www.red-seal.ca/",
+      "error": "page returned almost no text (blocked or empty)"
+    },
+    {
+      "id": "reg_43469408",
+      "name": "ANMAC — skills assessment for nurses and midwives",
+      "url": "https://www.anmac.org.au/",
+      "error": "page returned almost no text (blocked or empty)"
+    },
+    {
+      "id": "reg_c4649de9",
+      "name": "Nursing and Midwifery Board of Australia (AHPRA)",
+      "url": "https://www.nursingmidwiferyboard.gov.au/",
+      "error": "page returned almost no text (blocked or empty)"
+    },
+    {
+      "id": "reg_40c560bc",
+      "name": "Medical Council of Canada",
+      "url": "https://mcc.ca/",
+      "error": "page returned almost no text (blocked or empty)"
+    },
+    {
+      "id": "reg_522c92c0",
+      "name": "Medical Board of Australia (AHPRA)",
+      "url": "https://www.medicalboard.gov.au/",
+      "error": "page returned almost no text (blocked or empty)"
+    },
+    {
+      "id": "reg_3289f93f",
+      "name": "Pharmacy Board of Australia (AHPRA)",
+      "url": "https://www.pharmacyboard.gov.au/",
+      "error": "page returned almost no text (blocked or empty)"
+    },
+    {
+      "id": "reg_57322507",
+      "name": "Physiotherapy Board of Australia (AHPRA)",
+      "url": "https://www.physiotherapyboard.gov.au/",
+      "error": "page returned almost no text (blocked or empty)"
+    },
+    {
+      "id": "reg_6f9b0736",
+      "name": "Canadian Society for Medical Laboratory Science (CSMLS)",
+      "url": "https://www.csmls.org/",
+      "error": "Remote end closed connection without response; curl--http1.1 exit 56"
+    },
+    {
+      "id": "reg_a3bac84b",
+      "name": "Medical Radiation Practice Board of Australia (AHPRA)",
+      "url": "https://www.medicalradiationpracticeboard.gov.au/",
+      "error": "page returned almost no text (blocked or empty)"
+    },
+    {
+      "id": "reg_df307455",
+      "name": "Dental Board of Australia (AHPRA)",
+      "url": "https://www.dentalboard.gov.au/",
+      "error": "page returned almost no text (blocked or empty)"
     }
   ],
-  "newChangesDetected": 0,
-  "checksSucceeded": 6,
-  "checksFailed": 4
+  "newChangesDetected": 1,
+  "checksSucceeded": 30,
+  "checksFailed": 14
 }
