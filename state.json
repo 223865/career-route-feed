@@ -1,12 +1,12 @@
 {
   "nz_visas": {
     "hash": "06f772eb5376a3973ba690b9e089dfecfa008bc1b200e0df190063a25a42b95f",
-    "checkedAt": "2026-11-03T20:42:34Z",
+    "checkedAt": "2026-11-04T12:40:03Z",
     "fails": 0
   },
   "nz_aeWV": {
-    "hash": "43fd932fb1a65b66758851d871729499af6061e5d1e4851feaf539433ea81330",
-    "checkedAt": "2026-11-03T20:42:34Z",
+    "hash": "d61a25b92e22b750286ecbdef045784881addbbf0de00e9e8b5f787acad0b714",
+    "checkedAt": "2026-11-04T12:40:03Z",
     "fails": 0
   },
   "nz_smctech": {
@@ -15,21 +15,21 @@
   },
   "nzqa": {
     "hash": "03eab79d7fe3747c7dc86ffd84b069697ea41324bc1770fb8a89a3e77cc24272",
-    "checkedAt": "2026-11-03T20:42:34Z",
+    "checkedAt": "2026-11-04T12:40:03Z",
     "fails": 0
   },
   "au_visas": {
     "hash": "bbd3584ad78e614e8a7203f9b9a9b3b3033e34c2d4802405920780d31b5f1fd3",
-    "checkedAt": "2026-11-03T20:42:34Z",
+    "checkedAt": "2026-11-04T12:40:03Z",
     "fails": 0
   },
   "au_fees": {
     "hash": "d9521e6f3b1574b4cf1021b240624ef707f4f40f54e5bcf82a018377a1d1bce1",
-    "checkedAt": "2026-11-03T20:42:34Z",
+    "checkedAt": "2026-11-04T12:40:03Z",
     "fails": 0
   },
   "reg_ac9fccbc": {
-    "fails": 2
+    "fails": 3
   },
   "reg_924f99eb": {
     "hash": "9d2307c7c3aa56dfd34d579c6bb7fed717e9447e1a5212521ab7d2aaec755e14",
@@ -72,10 +72,10 @@
     "fails": 0
   },
   "reg_43469408": {
-    "fails": 2
+    "fails": 3
   },
   "reg_c4649de9": {
-    "fails": 2
+    "fails": 3
   },
   "reg_8352b41d": {
     "hash": "5478c478730a1186b405b3f416815ef5035009cdf5ac946be0d8bf50c50fecce",
@@ -88,7 +88,7 @@
     "fails": 0
   },
   "reg_40c560bc": {
-    "fails": 2
+    "fails": 3
   },
   "reg_364c705d": {
     "hash": "352d0590c71a53e08328bb5c965c5ee2978f47010e34e5387c3f5428538a6e69",
@@ -96,7 +96,7 @@
     "fails": 0
   },
   "reg_522c92c0": {
-    "fails": 2
+    "fails": 3
   },
   "reg_5c01ac29": {
     "hash": "d09ca54aebe34c7273862dff49b2c21af2c95d0405ec7aba86cca779ed1a2bb9",
@@ -114,7 +114,7 @@
     "fails": 0
   },
   "reg_3289f93f": {
-    "fails": 2
+    "fails": 3
   },
   "reg_f3dbbf2a": {
     "hash": "74b3ff2f53bb9b554414881c3cabf4dd5c6d82a8633854fd048a499f0ef75741",
@@ -132,7 +132,7 @@
     "fails": 0
   },
   "reg_57322507": {
-    "fails": 2
+    "fails": 3
   },
   "reg_62312892": {
     "hash": "4c51d0cc2b6c0041ff346166e8ebc8794e24c4800f2b4e70bddf5ced03567220",
@@ -140,7 +140,7 @@
     "fails": 0
   },
   "reg_6f9b0736": {
-    "fails": 2
+    "fails": 3
   },
   "reg_2f94c01e": {
     "hash": "d40f7d086a9000839e9e0283daf0588e93ad0df09008f1c1dcc5b07740261340",
@@ -163,7 +163,7 @@
     "fails": 0
   },
   "reg_a3bac84b": {
-    "fails": 2
+    "fails": 3
   },
   "reg_24290eae": {
     "hash": "cd012c8b237c5b48cbfeea0338b915b2691960882978b4971a2c2788e4e89122",
@@ -181,6 +181,6 @@
     "fails": 0
   },
   "reg_df307455": {
-    "fails": 2
+    "fails": 3
   }
 }
