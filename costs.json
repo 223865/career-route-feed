@@ -1,0 +1,78 @@
+{
+ "version": 1,
+ "updated": "2026-11-08",
+ "items": {
+  "nz_aewv": {
+   "label": "New Zealand Accredited Employer Work Visa",
+   "cur": "NZD",
+   "amount": 1540,
+   "url": "https://www.immigration.govt.nz/visas/accredited-employer-work-visa/",
+   "checked": "2026-11-08",
+   "status": "verified",
+   "note": "Immigration NZ lists this visa from NZD 1,540. Employers cannot charge you for it.",
+   "rule": {
+    "re": "Cost\\s+From\\s+NZD\\s*\\$?\\s*([\\d,]+)"
+   }
+  },
+  "nz_iqa": {
+   "label": "NZQA Standard IQA",
+   "cur": "NZD",
+   "amount": 445,
+   "url": "https://www2.nzqa.govt.nz/international/recognise-overseas-qual/apply-iqa/fees/",
+   "checked": "2026-11-08",
+   "status": "verified",
+   "note": "Standard International Qualification Assessment. Extra fees apply to some cases (Skill Shortage List NZ$610, pre-1998 qualifications).",
+   "rule": {
+    "re": "Standard IQA\\b.{0,200}?NZ\\$\\s*([\\d,]+)"
+   }
+  },
+  "nz_iqa_teaching": {
+   "label": "NZQA Teaching IQA",
+   "cur": "NZD",
+   "amount": 746,
+   "url": "https://www2.nzqa.govt.nz/international/recognise-overseas-qual/apply-iqa/fees/",
+   "checked": "2026-11-08",
+   "status": "verified",
+   "note": "Teaching IQA for registering with the Teaching Council. Includes two extra Standard IQAs.",
+   "rule": {
+    "re": "Teaching IQA\\b.{0,500}?NZ\\$\\s*([\\d,]+)"
+   }
+  },
+  "ca_pr": {
+   "label": "Canada permanent residence fees",
+   "cur": "CAD",
+   "amount": 1590,
+   "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/application/fees.html",
+   "checked": "2026-10-28",
+   "status": "estimate",
+   "note": "Processing fee plus right of permanent residence fee. The IRCC page blocks automatic checks, so confirm on the page."
+  },
+  "ca_bio": {
+   "label": "Canada biometrics",
+   "cur": "CAD",
+   "amount": 85,
+   "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/application/fees.html",
+   "checked": "2026-10-28",
+   "status": "estimate",
+   "note": "Confirm on the IRCC fees page."
+  },
+  "au_visa": {
+   "label": "Australian skilled visa",
+   "cur": "AUD",
+   "amount": 6140,
+   "url": "https://immi.homeaffairs.gov.au/visas/visa-pricing-estimator",
+   "checked": "2026-10-28",
+   "status": "estimate",
+   "note": "Example for a points-tested or nominated visa. Use the visa pricing estimator for your visa."
+  },
+  "au_tra": {
+   "label": "Trades Recognition Australia assessment",
+   "cur": "AUD",
+   "amount": 2020,
+   "url": "https://www.tradesrecognitionaustralia.gov.au/",
+   "checked": "2026-10-28",
+   "status": "estimate",
+   "note": "Lowest pathway; fees depend on the pathway. Confirm on the TRA site."
+  }
+ }
+}
