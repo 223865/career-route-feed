@@ -12,6 +12,52 @@ FEED = "updates.json"
 # These sites cut off automated requests from GitHub's servers (confirmed 30 Oct 2026),
 # so they are listed as "check by hand" instead of waiting minutes for a timeout.
 # Set the environment variable TRY_BLOCKED=1 to try them again.
+TEXTS = {}  # page text from this run, used for "what changed" and snapshots
+
+
+def sentences(t):
+    return [x.strip() for x in re.split(r"(?<=[.!?])\s+", t) if len(x.strip()) > 25]
+
+
+def diff_text(old, new):
+    o, n = sentences(old), sentences(new)
+    so, sn = set(o), set(n)
+    return [x[:220] for x in n if x not in so][:4], [x[:220] for x in o if x not in sn][:3]
+
+
+def update_costs(events, stamp):
+    """Read fee amounts from official pages where a rule exists. Never invent a number:
+    if a page cannot be read the old amount stays and is marked as an estimate."""
+    try:
+        c = json.load(open("costs.json", encoding="utf-8"))
+    except Exception:
+        return
+    names = {"nz": "New Zealand", "ca": "Canada", "au": "Australia"}
+    day = stamp[:10]
+    for cid, it in c["items"].items():
+        r = it.get("rule")
+        if not r:
+            continue
+        try:
+            _, text = fetch(it["url"])
+            m = re.search(r["re"], text, re.I | re.S)
+            if not m:
+                raise ValueError("fee not found on page")
+            val = float(m.group(1).replace(",", ""))
+            if val != it.get("amount"):
+                events.append({"id": "fee_" + cid, "kind": "fee", "country": names.get(cid[:2], ""),
+                    "title": it["label"], "url": it["url"], "detectedAt": stamp, "status": "needs_human_review",
+                    "message": "Fee changed from %s %s to %s %s. Your budget was updated unless you typed your own amount." % (
+                        it["cur"], f"{it.get('amount'):,.0f}", it["cur"], f"{val:,.0f}")})
+                it["previous"] = it.get("amount")
+                it["amount"] = val
+            it["status"], it["checked"] = "verified", day
+        except Exception:
+            if it.get("status") == "verified":
+                it["status"] = "estimate"  # keep the last amount we read, but say it is not fresh
+    json.dump(c, open("costs.json", "w", encoding="utf-8"), indent=1, ensure_ascii=False)
+
+
 MANUAL = {"ca_language", "ca_fst", "ca_fees", "au_tra"}
 STATE = "state.json"
 SKIP = {"script", "style", "noscript", "svg", "head"}
@@ -118,6 +164,7 @@ def check_one(s, prev, force_try):
         title, text = fetch(s["url"])
         if len(text) < 200:
             return s, "empty", None, None, "page returned almost no text (blocked or empty)"
+        TEXTS[s["id"]] = text
         return s, "ok", title, hashlib.sha256(text.encode("utf-8")).hexdigest(), None
     except Exception as e:
         return s, "fail", None, None, str(e)[:150]
@@ -144,6 +191,7 @@ def render_empty(results):
                     title = pg.title()
                     pg.close()
                     if len(text) >= 200:
+                        TEXTS[s["id"]] = text
                         results[i] = (s, "ok", title, hashlib.sha256(text.encode("utf-8")).hexdigest(), None)
                     else:
                         results[i] = (s, "fail", None, None, "page is empty even in a browser (probably blocked)")
@@ -192,9 +240,12 @@ def main():
             bad += 1
         elif kind == "ok":
             s["title"] = title
+            snap = os.path.join("snap", sid + ".txt")
+            old = open(snap, encoding="utf-8").read() if os.path.exists(snap) else ""
             if prev.get("hash") and prev["hash"] != h:
                 s["status"] = "changed"
-                ev = {"id": sid, "country": s["country"], "title": s["name"], "url": s["url"],
+                added, removed = diff_text(old, TEXTS.get(sid, "")[:30000]) if old else ([], [])
+                ev = {"kind": "change", "added": added, "removed": removed, "id": sid, "country": s["country"], "title": s["name"], "url": s["url"],
                       "detectedAt": stamp, "status": "needs_human_review",
                       "message": "Page text changed since the last check. This may be minor (dates, wording). Open the source and confirm before acting."}
                 if s.get("careers"):
@@ -202,6 +253,8 @@ def main():
                 events.append(ev)
             else:
                 s["status"] = "ok"
+            os.makedirs("snap", exist_ok=True)
+            open(snap, "w", encoding="utf-8").write(TEXTS.get(sid, "")[:30000])
             state[sid] = {"hash": h, "checkedAt": stamp, "fails": 0}
             ok += 1
         else:
@@ -210,6 +263,7 @@ def main():
             st["fails"] = st.get("fails", 0) + 1
             failures.append({"id": sid, "name": s["name"], "url": s["url"], "error": err})
             bad += 1
+    update_costs(events, stamp)
     cutoff = (now - timedelta(days=14)).strftime("%Y-%m-%dT%H:%M:%SZ")
     events = events[-50:]
     feed.update({
