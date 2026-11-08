@@ -117,10 +117,43 @@ def check_one(s, prev, force_try):
     try:
         title, text = fetch(s["url"])
         if len(text) < 200:
-            raise ValueError("page returned almost no text (blocked or empty)")
+            return s, "empty", None, None, "page returned almost no text (blocked or empty)"
         return s, "ok", title, hashlib.sha256(text.encode("utf-8")).hexdigest(), None
     except Exception as e:
         return s, "fail", None, None, str(e)[:150]
+
+
+def render_empty(results):
+    """Pages that came back with almost no text are often built by JavaScript.
+    Open them in a real headless browser (if Playwright is installed) and read the text."""
+    idx = [i for i, r in enumerate(results) if r[1] == "empty"]
+    if not idx:
+        return results
+    results = list(results)
+    try:
+        from playwright.sync_api import sync_playwright
+        with sync_playwright() as p:
+            br = p.chromium.launch()
+            for i in idx:
+                s = results[i][0]
+                try:
+                    pg = br.new_page(user_agent=HEADERS["User-Agent"])
+                    pg.goto(s["url"], wait_until="networkidle", timeout=45000)
+                    pg.wait_for_timeout(1500)
+                    text = re.sub(r"\s+", " ", pg.inner_text("body")).strip()
+                    title = pg.title()
+                    pg.close()
+                    if len(text) >= 200:
+                        results[i] = (s, "ok", title, hashlib.sha256(text.encode("utf-8")).hexdigest(), None)
+                    else:
+                        results[i] = (s, "fail", None, None, "page is empty even in a browser (probably blocked)")
+                except Exception as e:
+                    results[i] = (s, "fail", None, None, "browser: " + str(e)[:100])
+            br.close()
+    except Exception as e:
+        for i in idx:
+            results[i] = (results[i][0], "fail", None, None, "page returned almost no text (blocked or empty)")
+    return results
 
 
 def main():
@@ -148,6 +181,7 @@ def main():
         todo.append((s, prev))
     with ThreadPoolExecutor(max_workers=8) as ex:
         results = list(ex.map(lambda sp: check_one(sp[0], sp[1], force_try), todo))
+    results = render_empty(results)
     for (s, prev), (_, kind, title, h, err) in zip(todo, results):
         sid = s["id"]
         s["checkedAt"] = stamp
