@@ -4,6 +4,10 @@ on:
   schedule:
     - cron: '0 20 * * *'
   workflow_dispatch:
+    inputs:
+      force:
+        description: 'Type 1 to retry every page now (leave 0 for a normal run)'
+        default: '0'
 permissions:
   contents: write
 jobs:
@@ -21,10 +25,14 @@ jobs:
           python -m pip install playwright
           python -m playwright install --with-deps chromium
       - name: Run checks
+        env:
+          FORCE_ALL: ${{ github.event.inputs.force }}
         run: python monitor.py
       - name: Save results
         run: |
           git config user.name "career-route-bot"
           git config user.email "bot@users.noreply.github.com"
-          git add updates.json state.json
+          git add updates.json state.json costs.json
+          [ -d snap ] && git add snap || true
           git diff --cached --quiet || git commit -m "Update official-source feed"
+          git push
