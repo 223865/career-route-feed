@@ -1,6 +1,6 @@
 {
-  "version": "3.6.0",
-  "notes": "v3.6.0 (Beta): progress gauge, destination ladder, account tools and deletion, regulator monitoring.",
+  "version": "3.7.0",
+  "notes": "v3.7.0 (Beta): email verification code, official fee checks in the budget, steps mark costs paid, update notifications.",
   "pathwayReviewDate": "2026-10-28",
   "pathwayNotes": []
 }
