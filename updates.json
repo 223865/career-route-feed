@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-09T20:48:58Z",
+  "generatedAt": "2026-11-10T20:40:20Z",
   "monitoringMode": "scheduled",
   "importantDisclaimer": "Scheduled checks detect page-text changes only. A detected change is not a verified policy change; always confirm requirements and fees on the linked official source.",
   "sources": [
@@ -10,8 +10,8 @@
       "name": "Immigration New Zealand — visa and residence information",
       "url": "https://www.immigration.govt.nz/",
       "priority": "critical",
-      "checkedAt": "2026-11-09T20:48:58Z",
-      "status": "ok",
+      "checkedAt": "2026-11-10T20:40:20Z",
+      "status": "changed",
       "title": "Immigration New Zealand :: Immigration New Zealand"
     },
     {
@@ -20,7 +20,7 @@
       "name": "Immigration New Zealand — Accredited Employer Work Visa",
       "url": "https://www.immigration.govt.nz/visas/accredited-employer-work-visa/",
       "priority": "critical",
-      "checkedAt": "2026-11-09T20:48:58Z",
+      "checkedAt": "2026-11-10T20:40:20Z",
       "status": "ok",
       "title": "Accredited Employer Work Visa » Immigration New ZealandAccredited Employer Work Visa :: Immigration New Zealand"
     },
@@ -40,7 +40,7 @@
       "name": "NZQA — Recognise overseas qualifications",
       "url": "https://www2.nzqa.govt.nz/international/recognise-overseas-qual/",
       "priority": "critical",
-      "checkedAt": "2026-11-09T20:48:58Z",
+      "checkedAt": "2026-11-10T20:40:20Z",
       "status": "ok",
       "title": "Getting overseas qualifications recognised by NZQA - NZQA"
     },
@@ -50,7 +50,7 @@
       "name": "IRCC — Express Entry approved language tests",
       "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/documents/language-test.html",
       "priority": "critical",
-      "checkedAt": "2026-11-09T20:48:58Z",
+      "checkedAt": "2026-11-10T20:40:20Z",
       "status": "manual_check",
       "title": ""
     },
@@ -60,7 +60,7 @@
       "name": "IRCC — Federal Skilled Trades Program",
       "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/who-can-apply/federal-skilled-trades.html",
       "priority": "critical",
-      "checkedAt": "2026-11-09T20:48:58Z",
+      "checkedAt": "2026-11-10T20:40:20Z",
       "status": "manual_check",
       "title": ""
     },
@@ -70,7 +70,7 @@
       "name": "IRCC — Fees for economic immigration applications",
       "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/application/fees.html",
       "priority": "critical",
-      "checkedAt": "2026-11-09T20:48:58Z",
+      "checkedAt": "2026-11-10T20:40:20Z",
       "status": "manual_check",
       "title": ""
     },
@@ -80,7 +80,7 @@
       "name": "Department of Home Affairs — visa listing",
       "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing",
       "priority": "critical",
-      "checkedAt": "2026-11-09T20:48:58Z",
+      "checkedAt": "2026-11-10T20:40:20Z",
       "status": "ok",
       "title": "Visa list"
     },
@@ -90,7 +90,7 @@
       "name": "Department of Home Affairs — visa pricing estimator",
       "url": "https://immi.homeaffairs.gov.au/visas/visa-pricing-estimator",
       "priority": "critical",
-      "checkedAt": "2026-11-09T20:48:58Z",
+      "checkedAt": "2026-11-10T20:40:20Z",
       "status": "ok",
       "title": "Visa pricing estimator"
     },
@@ -100,7 +100,7 @@
       "name": "Trades Recognition Australia",
       "url": "https://www.tradesrecognitionaustralia.gov.au/",
       "priority": "weekly",
-      "checkedAt": "2026-11-09T20:48:58Z",
+      "checkedAt": "2026-11-10T20:40:20Z",
       "status": "manual_check",
       "title": ""
     },
@@ -123,8 +123,8 @@
         "welder",
         "fitter"
       ],
-      "checkedAt": "2026-11-09T20:48:58Z",
-      "status": "check_failed",
+      "checkedAt": "2026-11-10T20:40:20Z",
+      "status": "manual_check",
       "title": ""
     },
     {
@@ -286,8 +286,8 @@
         "nurse",
         "midwife"
       ],
-      "checkedAt": "2026-11-09T20:48:58Z",
-      "status": "check_failed",
+      "checkedAt": "2026-11-10T20:40:20Z",
+      "status": "manual_check",
       "title": ""
     },
     {
@@ -325,8 +325,8 @@
       "careers": [
         "doctor"
       ],
-      "checkedAt": "2026-11-09T20:48:58Z",
-      "status": "check_failed",
+      "checkedAt": "2026-11-10T20:40:20Z",
+      "status": "manual_check",
       "title": ""
     },
     {
@@ -351,8 +351,8 @@
       "careers": [
         "doctor"
       ],
-      "checkedAt": "2026-11-09T20:48:58Z",
-      "status": "check_failed",
+      "checkedAt": "2026-11-10T20:40:20Z",
+      "status": "manual_check",
       "title": ""
     },
     {
@@ -403,8 +403,8 @@
       "careers": [
         "pharmacist"
       ],
-      "checkedAt": "2026-11-09T20:48:58Z",
-      "status": "check_failed",
+      "checkedAt": "2026-11-10T20:40:20Z",
+      "status": "manual_check",
       "title": ""
     },
     {
@@ -455,8 +455,8 @@
       "careers": [
         "physio"
       ],
-      "checkedAt": "2026-11-09T20:48:58Z",
-      "status": "check_failed",
+      "checkedAt": "2026-11-10T20:40:20Z",
+      "status": "manual_check",
       "title": ""
     },
     {
@@ -481,8 +481,8 @@
       "careers": [
         "mls"
       ],
-      "checkedAt": "2026-11-09T20:48:58Z",
-      "status": "check_failed",
+      "checkedAt": "2026-11-10T20:40:20Z",
+      "status": "manual_check",
       "title": ""
     },
     {
@@ -546,8 +546,8 @@
       "careers": [
         "radiographer"
       ],
-      "checkedAt": "2026-11-09T20:48:58Z",
-      "status": "check_failed",
+      "checkedAt": "2026-11-10T20:40:20Z",
+      "status": "manual_check",
       "title": ""
     },
     {
@@ -598,8 +598,8 @@
       "careers": [
         "dentist"
       ],
-      "checkedAt": "2026-11-09T20:48:58Z",
-      "status": "check_failed",
+      "checkedAt": "2026-11-10T20:40:20Z",
+      "status": "manual_check",
       "title": ""
     }
   ],
@@ -752,9 +752,82 @@
       "careers": [
         "dentist"
       ]
+    },
+    {
+      "kind": "change",
+      "added": [
+        "Moving to New Zealand Resident visas to live in New Zealand Refugees and asylum seeker information Setting up your life in New Zealand Staying safe and knowing your rights Where to apply for New Zealand citizenship and a",
+        "5 Nov 2026 MBIE seeks investor insights on the Active Investor Plus visa MBIE is undertaking research on how the Active Investor Plus Visa is performing and is inviting investors to share their experiences to help inform",
+        "All announcements Top visas Visitor Visa People travelling on a passport from some countries must apply for a Visitor Visa to visit New Zealand."
+      ],
+      "removed": [
+        "Moving to New Zealand Resident visas to live in New Zealand Refugees and asylum seeker information Setting up your life in New Zealand Staying safe and knowing your rights Where to apply for New Zealand citizenship and a",
+        "30 Oct 2026 Parent Category estimated selection dates now available People with a Parent Resident Visa expression of interest (EOI) have now received information about their queue entry and estimated selection dates, and"
+      ],
+      "id": "nz_visas",
+      "country": "New Zealand",
+      "title": "Immigration New Zealand — visa and residence information",
+      "url": "https://www.immigration.govt.nz/",
+      "detectedAt": "2026-11-10T20:40:20Z",
+      "status": "needs_human_review",
+      "message": "Page text changed since the last check. This may be minor (dates, wording). Open the source and confirm before acting."
     }
   ],
   "failures": [
+    {
+      "id": "reg_ac9fccbc",
+      "name": "Red Seal Program",
+      "url": "https://www.red-seal.ca/",
+      "error": "Could not be checked automatically. Open it and check by hand about once a week."
+    },
+    {
+      "id": "reg_c4649de9",
+      "name": "Nursing and Midwifery Board of Australia (AHPRA)",
+      "url": "https://www.nursingmidwiferyboard.gov.au/",
+      "error": "Could not be checked automatically. Open it and check by hand about once a week."
+    },
+    {
+      "id": "reg_40c560bc",
+      "name": "Medical Council of Canada",
+      "url": "https://mcc.ca/",
+      "error": "Could not be checked automatically. Open it and check by hand about once a week."
+    },
+    {
+      "id": "reg_522c92c0",
+      "name": "Medical Board of Australia (AHPRA)",
+      "url": "https://www.medicalboard.gov.au/",
+      "error": "Could not be checked automatically. Open it and check by hand about once a week."
+    },
+    {
+      "id": "reg_3289f93f",
+      "name": "Pharmacy Board of Australia (AHPRA)",
+      "url": "https://www.pharmacyboard.gov.au/",
+      "error": "Could not be checked automatically. Open it and check by hand about once a week."
+    },
+    {
+      "id": "reg_57322507",
+      "name": "Physiotherapy Board of Australia (AHPRA)",
+      "url": "https://www.physiotherapyboard.gov.au/",
+      "error": "Could not be checked automatically. Open it and check by hand about once a week."
+    },
+    {
+      "id": "reg_6f9b0736",
+      "name": "Canadian Society for Medical Laboratory Science (CSMLS)",
+      "url": "https://www.csmls.org/",
+      "error": "Could not be checked automatically. Open it and check by hand about once a week."
+    },
+    {
+      "id": "reg_a3bac84b",
+      "name": "Medical Radiation Practice Board of Australia (AHPRA)",
+      "url": "https://www.medicalradiationpracticeboard.gov.au/",
+      "error": "Could not be checked automatically. Open it and check by hand about once a week."
+    },
+    {
+      "id": "reg_df307455",
+      "name": "Dental Board of Australia (AHPRA)",
+      "url": "https://www.dentalboard.gov.au/",
+      "error": "Could not be checked automatically. Open it and check by hand about once a week."
+    },
     {
       "id": "ca_language",
       "name": "IRCC — Express Entry approved language tests",
@@ -778,63 +851,9 @@
       "name": "Trades Recognition Australia",
       "url": "https://www.tradesrecognitionaustralia.gov.au/",
       "error": "Blocks automatic checks. Open it and check by hand about once a week."
-    },
-    {
-      "id": "reg_ac9fccbc",
-      "name": "Red Seal Program",
-      "url": "https://www.red-seal.ca/",
-      "error": "page is empty even in a browser (probably blocked)"
-    },
-    {
-      "id": "reg_c4649de9",
-      "name": "Nursing and Midwifery Board of Australia (AHPRA)",
-      "url": "https://www.nursingmidwiferyboard.gov.au/",
-      "error": "page is empty even in a browser (probably blocked)"
-    },
-    {
-      "id": "reg_40c560bc",
-      "name": "Medical Council of Canada",
-      "url": "https://mcc.ca/",
-      "error": "page is empty even in a browser (probably blocked)"
-    },
-    {
-      "id": "reg_522c92c0",
-      "name": "Medical Board of Australia (AHPRA)",
-      "url": "https://www.medicalboard.gov.au/",
-      "error": "page is empty even in a browser (probably blocked)"
-    },
-    {
-      "id": "reg_3289f93f",
-      "name": "Pharmacy Board of Australia (AHPRA)",
-      "url": "https://www.pharmacyboard.gov.au/",
-      "error": "page is empty even in a browser (probably blocked)"
-    },
-    {
-      "id": "reg_57322507",
-      "name": "Physiotherapy Board of Australia (AHPRA)",
-      "url": "https://www.physiotherapyboard.gov.au/",
-      "error": "page is empty even in a browser (probably blocked)"
-    },
-    {
-      "id": "reg_6f9b0736",
-      "name": "Canadian Society for Medical Laboratory Science (CSMLS)",
-      "url": "https://www.csmls.org/",
-      "error": "Remote end closed connection without response; curl--http1.1 exit 56"
-    },
-    {
-      "id": "reg_a3bac84b",
-      "name": "Medical Radiation Practice Board of Australia (AHPRA)",
-      "url": "https://www.medicalradiationpracticeboard.gov.au/",
-      "error": "page is empty even in a browser (probably blocked)"
-    },
-    {
-      "id": "reg_df307455",
-      "name": "Dental Board of Australia (AHPRA)",
-      "url": "https://www.dentalboard.gov.au/",
-      "error": "page is empty even in a browser (probably blocked)"
     }
   ],
-  "newChangesDetected": 11,
-  "checksSucceeded": 33,
+  "newChangesDetected": 12,
+  "checksSucceeded": 5,
   "checksFailed": 13
 }
