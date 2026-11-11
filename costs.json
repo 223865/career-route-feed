@@ -7,7 +7,7 @@
    "cur": "NZD",
    "amount": 1540,
    "url": "https://www.immigration.govt.nz/visas/accredited-employer-work-visa/",
-   "checked": "2026-11-08",
+   "checked": "2026-11-11",
    "status": "verified",
    "note": "Immigration NZ lists this visa from NZD 1,540. Employers cannot charge you for it.",
    "rule": {
@@ -19,7 +19,7 @@
    "cur": "NZD",
    "amount": 445,
    "url": "https://www2.nzqa.govt.nz/international/recognise-overseas-qual/apply-iqa/fees/",
-   "checked": "2026-11-08",
+   "checked": "2026-11-11",
    "status": "verified",
    "note": "Standard International Qualification Assessment. Extra fees apply to some cases (Skill Shortage List NZ$610, pre-1998 qualifications).",
    "rule": {
@@ -31,7 +31,7 @@
    "cur": "NZD",
    "amount": 746,
    "url": "https://www2.nzqa.govt.nz/international/recognise-overseas-qual/apply-iqa/fees/",
-   "checked": "2026-11-08",
+   "checked": "2026-11-11",
    "status": "verified",
    "note": "Teaching IQA for registering with the Teaching Council. Includes two extra Standard IQAs.",
    "rule": {
@@ -80,7 +80,7 @@
    "amount": 372,
    "url": "https://ielts.org/test-centres/british-council-arrupe-jesuit-university",
    "checked": "2026-11-09",
-   "status": "verified",
+   "status": "estimate",
    "note": "Fee at the British Council centre in Harare. Other centres charge USD 367 to 375, and UKVI tests cost about USD 397. Check your own centre.",
    "rule": {
     "re": "(?<!UKVI )Academic Test\\s+Academic Test\\|-\\s*USD\\s*([\\d,]+(?:\\.\\d+)?)"
