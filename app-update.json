@@ -1,6 +1,6 @@
 {
-  "version": "3.7.0",
-  "notes": "v3.7.0 (Beta): email verification code, official fee checks in the budget, steps mark costs paid, update notifications.",
+  "version": "3.8.0",
+  "notes": "v3.8.0 (Beta): fixed paid costs for diesel mechanics, phone alerts, tour, IELTS/PTE/flight costs by origin.",
   "pathwayReviewDate": "2026-10-28",
   "pathwayNotes": []
 }
