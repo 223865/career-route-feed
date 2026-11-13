@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-12T20:45:50Z",
+  "generatedAt": "2026-11-13T20:48:41Z",
   "monitoringMode": "scheduled",
   "importantDisclaimer": "Scheduled checks detect page-text changes only. A detected change is not a verified policy change; always confirm requirements and fees on the linked official source.",
   "sources": [
@@ -10,7 +10,7 @@
       "name": "Immigration New Zealand — visa and residence information",
       "url": "https://www.immigration.govt.nz/",
       "priority": "critical",
-      "checkedAt": "2026-11-12T20:45:50Z",
+      "checkedAt": "2026-11-13T20:48:41Z",
       "status": "changed",
       "title": "Immigration New Zealand :: Immigration New Zealand"
     },
@@ -20,7 +20,7 @@
       "name": "Immigration New Zealand — Accredited Employer Work Visa",
       "url": "https://www.immigration.govt.nz/visas/accredited-employer-work-visa/",
       "priority": "critical",
-      "checkedAt": "2026-11-12T20:45:50Z",
+      "checkedAt": "2026-11-13T20:48:41Z",
       "status": "changed",
       "title": "Accredited Employer Work Visa » Immigration New ZealandAccredited Employer Work Visa :: Immigration New Zealand"
     },
@@ -40,7 +40,7 @@
       "name": "NZQA — Recognise overseas qualifications",
       "url": "https://www2.nzqa.govt.nz/international/recognise-overseas-qual/",
       "priority": "critical",
-      "checkedAt": "2026-11-12T20:45:50Z",
+      "checkedAt": "2026-11-13T20:48:41Z",
       "status": "ok",
       "title": "Getting overseas qualifications recognised by NZQA - NZQA"
     },
@@ -50,7 +50,7 @@
       "name": "IRCC — Express Entry approved language tests",
       "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/documents/language-test.html",
       "priority": "critical",
-      "checkedAt": "2026-11-12T20:45:50Z",
+      "checkedAt": "2026-11-13T20:48:41Z",
       "status": "manual_check",
       "title": ""
     },
@@ -60,7 +60,7 @@
       "name": "IRCC — Federal Skilled Trades Program",
       "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/who-can-apply/federal-skilled-trades.html",
       "priority": "critical",
-      "checkedAt": "2026-11-12T20:45:50Z",
+      "checkedAt": "2026-11-13T20:48:41Z",
       "status": "manual_check",
       "title": ""
     },
@@ -70,7 +70,7 @@
       "name": "IRCC — Fees for economic immigration applications",
       "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/application/fees.html",
       "priority": "critical",
-      "checkedAt": "2026-11-12T20:45:50Z",
+      "checkedAt": "2026-11-13T20:48:41Z",
       "status": "manual_check",
       "title": ""
     },
@@ -80,7 +80,7 @@
       "name": "Department of Home Affairs — visa listing",
       "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing",
       "priority": "critical",
-      "checkedAt": "2026-11-12T20:45:50Z",
+      "checkedAt": "2026-11-13T20:48:41Z",
       "status": "ok",
       "title": "Visa list"
     },
@@ -90,7 +90,7 @@
       "name": "Department of Home Affairs — visa pricing estimator",
       "url": "https://immi.homeaffairs.gov.au/visas/visa-pricing-estimator",
       "priority": "critical",
-      "checkedAt": "2026-11-12T20:45:50Z",
+      "checkedAt": "2026-11-13T20:48:41Z",
       "status": "ok",
       "title": "Visa pricing estimator"
     },
@@ -100,7 +100,7 @@
       "name": "Trades Recognition Australia",
       "url": "https://www.tradesrecognitionaustralia.gov.au/",
       "priority": "weekly",
-      "checkedAt": "2026-11-12T20:45:50Z",
+      "checkedAt": "2026-11-13T20:48:41Z",
       "status": "manual_check",
       "title": ""
     },
@@ -123,7 +123,7 @@
         "welder",
         "fitter"
       ],
-      "checkedAt": "2026-11-12T20:45:50Z",
+      "checkedAt": "2026-11-13T20:48:41Z",
       "status": "manual_check",
       "title": ""
     },
@@ -286,7 +286,7 @@
         "nurse",
         "midwife"
       ],
-      "checkedAt": "2026-11-12T20:45:50Z",
+      "checkedAt": "2026-11-13T20:48:41Z",
       "status": "manual_check",
       "title": ""
     },
@@ -325,7 +325,7 @@
       "careers": [
         "doctor"
       ],
-      "checkedAt": "2026-11-12T20:45:50Z",
+      "checkedAt": "2026-11-13T20:48:41Z",
       "status": "manual_check",
       "title": ""
     },
@@ -351,7 +351,7 @@
       "careers": [
         "doctor"
       ],
-      "checkedAt": "2026-11-12T20:45:50Z",
+      "checkedAt": "2026-11-13T20:48:41Z",
       "status": "manual_check",
       "title": ""
     },
@@ -403,7 +403,7 @@
       "careers": [
         "pharmacist"
       ],
-      "checkedAt": "2026-11-12T20:45:50Z",
+      "checkedAt": "2026-11-13T20:48:41Z",
       "status": "manual_check",
       "title": ""
     },
@@ -455,7 +455,7 @@
       "careers": [
         "physio"
       ],
-      "checkedAt": "2026-11-12T20:45:50Z",
+      "checkedAt": "2026-11-13T20:48:41Z",
       "status": "manual_check",
       "title": ""
     },
@@ -481,7 +481,7 @@
       "careers": [
         "mls"
       ],
-      "checkedAt": "2026-11-12T20:45:50Z",
+      "checkedAt": "2026-11-13T20:48:41Z",
       "status": "manual_check",
       "title": ""
     },
@@ -546,7 +546,7 @@
       "careers": [
         "radiographer"
       ],
-      "checkedAt": "2026-11-12T20:45:50Z",
+      "checkedAt": "2026-11-13T20:48:41Z",
       "status": "manual_check",
       "title": ""
     },
@@ -598,7 +598,7 @@
       "careers": [
         "dentist"
       ],
-      "checkedAt": "2026-11-12T20:45:50Z",
+      "checkedAt": "2026-11-13T20:48:41Z",
       "status": "manual_check",
       "title": ""
     }
@@ -855,6 +855,48 @@
       "detectedAt": "2026-11-12T20:45:50Z",
       "status": "needs_human_review",
       "message": "Page text changed since the last check. This may be minor (dates, wording). Open the source and confirm before acting."
+    },
+    {
+      "kind": "change",
+      "added": [
+        "Skip to main content Skip to main navigation Skip to secondary navigation Skip to search Application system issue Issued: Friday 13 Nov 2026, 09:50 am NZDT Customers can now apply for visas again through our enhanced Imm",
+        "Processing of applications will resume as usual on Monday New Zealand time.",
+        "Impact of Microsoft outage Parent Category November draw Issued: Wednesday 11 Nov 2026, 09:45 pm NZDT The technical issue that affected the 10 November 2026 Parent Category draw has been resolved.",
+        "We are sorry for any stress this has caused."
+      ],
+      "removed": [
+        "Skip to main content Skip to main navigation Skip to secondary navigation Skip to search Planned upgrade Issued: Thursday 12 Nov 2026, 10:00 am NZDT From 08:00 to 23:59 Sunday 15 November (NZDT) and for 30 minutes betwee",
+        "Check the applications affected by this upgrade: Planned upgrades for 2026 Parent Category November draw Issued: Wednesday 11 Nov 2026, 09:45 pm NZDT A technical glitch has affected the 10 November 2026 Parent Category d",
+        "The issue is being resolved."
+      ],
+      "id": "nz_visas",
+      "country": "New Zealand",
+      "title": "Immigration New Zealand — visa and residence information",
+      "url": "https://www.immigration.govt.nz/",
+      "detectedAt": "2026-11-13T20:48:41Z",
+      "status": "needs_human_review",
+      "message": "Page text changed since the last check. This may be minor (dates, wording). Open the source and confirm before acting."
+    },
+    {
+      "kind": "change",
+      "added": [
+        "Skip to main content Skip to main navigation Skip to secondary navigation Skip to search Application system issue Issued: Friday 13 Nov 2026, 09:50 am NZDT Customers can now apply for visas again through our enhanced Imm",
+        "Processing of applications will resume as usual on Monday New Zealand time.",
+        "Impact of Microsoft outage Parent Category November draw Issued: Wednesday 11 Nov 2026, 09:45 pm NZDT The technical issue that affected the 10 November 2026 Parent Category draw has been resolved.",
+        "We are sorry for any stress this has caused."
+      ],
+      "removed": [
+        "Skip to main content Skip to main navigation Skip to secondary navigation Skip to search Planned upgrade Issued: Thursday 12 Nov 2026, 10:00 am NZDT From 08:00 to 23:59 Sunday 15 November (NZDT) and for 30 minutes betwee",
+        "Check the applications affected by this upgrade: Planned upgrades for 2026 Parent Category November draw Issued: Wednesday 11 Nov 2026, 09:45 pm NZDT A technical glitch has affected the 10 November 2026 Parent Category d",
+        "The issue is being resolved."
+      ],
+      "id": "nz_aeWV",
+      "country": "New Zealand",
+      "title": "Immigration New Zealand — Accredited Employer Work Visa",
+      "url": "https://www.immigration.govt.nz/visas/accredited-employer-work-visa/",
+      "detectedAt": "2026-11-13T20:48:41Z",
+      "status": "needs_human_review",
+      "message": "Page text changed since the last check. This may be minor (dates, wording). Open the source and confirm before acting."
     }
   ],
   "failures": [
@@ -937,7 +979,7 @@
       "error": "Blocks automatic checks. Open it and check by hand about once a week."
     }
   ],
-  "newChangesDetected": 16,
+  "newChangesDetected": 18,
   "checksSucceeded": 5,
   "checksFailed": 13
 }
