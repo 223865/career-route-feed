@@ -1,194 +1,198 @@
 {
   "nz_visas": {
-    "hash": "665fe90be8ea5b21d9dbe4918cc708648df63ad84612a3a4f4d4c89e88f82666",
-    "checkedAt": "2026-11-15T20:35:37Z",
+    "hash": "86890f4584e2db8c2d2814987e21c17d93c7a39e65193cee6825ea8111713a40",
+    "checkedAt": "2026-11-16T20:47:02Z",
     "fails": 0
   },
   "nz_aeWV": {
-    "hash": "8ff0983354ed6e03dce16818c3c9c3a2c2b24a9402d2e88a6dabe88c6f0cd94c",
-    "checkedAt": "2026-11-15T20:35:37Z",
+    "hash": "2f6efb23fab15e859838d2ce2bde6afbadb3fb96fd62663ae1ebf3e46b70fad6",
+    "checkedAt": "2026-11-16T20:47:02Z",
     "fails": 0
   },
   "nz_smctech": {
-    "hash": "84ebfe69e5a0ff24272088dd74b1cddeb9ca78c224414ef6626089e619870cbf",
-    "checkedAt": "2026-11-09T20:48:58Z",
+    "hash": "15cfaeb678574d8dd5985071ad1683e9d5b6d34188c482e29dbb5d669a0b7741",
+    "checkedAt": "2026-11-16T20:47:02Z",
     "fails": 0
   },
   "nzqa": {
     "hash": "03eab79d7fe3747c7dc86ffd84b069697ea41324bc1770fb8a89a3e77cc24272",
-    "checkedAt": "2026-11-15T20:35:37Z",
+    "checkedAt": "2026-11-16T20:47:02Z",
     "fails": 0
   },
   "au_visas": {
     "hash": "bbd3584ad78e614e8a7203f9b9a9b3b3033e34c2d4802405920780d31b5f1fd3",
-    "checkedAt": "2026-11-15T20:35:37Z",
+    "checkedAt": "2026-11-16T20:47:02Z",
     "fails": 0
   },
   "au_fees": {
     "hash": "d9521e6f3b1574b4cf1021b240624ef707f4f40f54e5bcf82a018377a1d1bce1",
-    "checkedAt": "2026-11-15T20:35:37Z",
+    "checkedAt": "2026-11-16T20:47:02Z",
     "fails": 0
   },
   "reg_ac9fccbc": {
-    "fails": 4
+    "fails": 5
   },
   "reg_924f99eb": {
-    "hash": "9d2307c7c3aa56dfd34d579c6bb7fed717e9447e1a5212521ab7d2aaec755e14",
-    "checkedAt": "2026-11-09T20:48:58Z",
+    "hash": "fe08cb0d80bc2de03526594cbf554e4bf3611e6c38e3cea5a28e08bb5e672dd7",
+    "checkedAt": "2026-11-16T20:47:02Z",
     "fails": 0
   },
   "reg_e1bca6fe": {
     "hash": "180beb350224199a79029f3112b6633bcdd10591272313fcbe9435c77c109495",
-    "checkedAt": "2026-11-09T20:48:58Z",
+    "checkedAt": "2026-11-16T20:47:02Z",
     "fails": 0
   },
   "reg_41ed5893": {
-    "hash": "02433b6620a0df87b88a057f47de4c327ad2111912c429f17cf192ffb0e66d21",
-    "checkedAt": "2026-11-09T20:48:58Z",
+    "hash": "43e3e6ad0b3d3403696a7d1ededb9d241c9f10432741be69cd76b0e135e84294",
+    "checkedAt": "2026-11-16T20:47:02Z",
     "fails": 0
   },
   "reg_0b478604": {
     "hash": "494666b109969aa6d046b1ad61d165235dac3f991db47d1edb0dc84649d64a44",
-    "checkedAt": "2026-11-09T20:48:58Z",
+    "checkedAt": "2026-11-16T20:47:02Z",
     "fails": 0
   },
   "reg_59fd0125": {
-    "hash": "ca2a01ad6a180c749498471925b6369502b7018da039b13378f477446bc0f106",
-    "checkedAt": "2026-11-09T20:48:58Z",
+    "hash": "da5a8166f68fd09b1fb18a626bb846c0bc7e8d8eabd57626229e501a1d590948",
+    "checkedAt": "2026-11-16T20:47:02Z",
     "fails": 0
   },
   "reg_7022d65d": {
     "hash": "ca912515ac933ea8934d35b32635b618c1da582f944969dcd31d21c3c6d3fe5a",
-    "checkedAt": "2026-11-09T20:48:58Z",
+    "checkedAt": "2026-11-16T20:47:02Z",
     "fails": 0
   },
   "reg_4558464a": {
-    "hash": "00995a7649477975573d7077fdb2f14c628bd06f5cd812a268c3e8839839f948",
-    "checkedAt": "2026-11-09T20:48:58Z",
+    "hash": "7b232f51c22c3534698f84e40d58dc660999a8de7bd593af4eeca856b3a1360b",
+    "checkedAt": "2026-11-16T20:47:02Z",
     "fails": 0
   },
   "reg_d1ddd6b1": {
     "hash": "d39b6d62c77427f03e33a7a95855495b26cc11dfe0593d3c8709d48c296ca243",
-    "checkedAt": "2026-11-09T20:48:58Z",
+    "checkedAt": "2026-11-16T20:47:02Z",
     "fails": 0
   },
   "reg_43469408": {
-    "hash": "4ec556ec74622f22c46b082a8018a17def73ee95156763d700a0fe505103cd55",
-    "checkedAt": "2026-11-09T20:48:58Z",
+    "hash": "a3534d3500f0fcc551fea3453fef3515e3c3fa9a86c22745e22dfbba536137e9",
+    "checkedAt": "2026-11-16T20:47:02Z",
     "fails": 0
   },
   "reg_c4649de9": {
-    "fails": 4
+    "hash": "c4b6da18c2453c77460aac146423e837a1cfcd3d8b961bda5a78b59697994878",
+    "checkedAt": "2026-11-16T20:47:02Z",
+    "fails": 0
   },
   "reg_8352b41d": {
     "hash": "5478c478730a1186b405b3f416815ef5035009cdf5ac946be0d8bf50c50fecce",
-    "checkedAt": "2026-11-09T20:48:58Z",
+    "checkedAt": "2026-11-16T20:47:02Z",
     "fails": 0
   },
   "reg_7f3da213": {
     "hash": "d4f66d264241bddc0edeea2c7857fd28fb2c96a939e0ad4c475e18869f20d0d8",
-    "checkedAt": "2026-11-09T20:48:58Z",
+    "checkedAt": "2026-11-16T20:47:02Z",
     "fails": 0
   },
   "reg_40c560bc": {
-    "fails": 4
+    "fails": 5
   },
   "reg_364c705d": {
     "hash": "a0830cf3fe93cd12f2a94b1b0f0ac52b165694c87b2e38623996b6a1932125cc",
-    "checkedAt": "2026-11-09T20:48:58Z",
+    "checkedAt": "2026-11-16T20:47:02Z",
     "fails": 0
   },
   "reg_522c92c0": {
-    "fails": 4
+    "fails": 5
   },
   "reg_5c01ac29": {
-    "hash": "d09ca54aebe34c7273862dff49b2c21af2c95d0405ec7aba86cca779ed1a2bb9",
-    "checkedAt": "2026-11-09T20:48:58Z",
+    "hash": "3cfbc8910219f908fd286ce3eb613f7550d938a2abe7c553bdb638a42a1f6d27",
+    "checkedAt": "2026-11-16T20:47:02Z",
     "fails": 0
   },
   "reg_649f497a": {
-    "hash": "f9fea833769d767cb712ccdfe3fc02c8fe35233a225776aa0fa7b59e8298adaf",
-    "checkedAt": "2026-11-09T20:48:58Z",
+    "hash": "1798b6a3a218a92cb47cacc5f01963db0bcf217e9ef24ef108d11917434d6a5e",
+    "checkedAt": "2026-11-16T20:47:02Z",
     "fails": 0
   },
   "reg_bd35ec76": {
-    "hash": "7278ce85f859ccfd6214d8015c6b705faca2a23d77baa38b14eb66e6b434dfc6",
-    "checkedAt": "2026-11-09T20:48:58Z",
+    "hash": "b6a72ac90c56ef32990475fda31ae7e90eee2dd1ad5c24664275d277502f97fc",
+    "checkedAt": "2026-11-16T20:47:02Z",
     "fails": 0
   },
   "reg_3289f93f": {
-    "fails": 4
+    "fails": 5
   },
   "reg_f3dbbf2a": {
     "hash": "efb5247ad6a9ad6dd2dc946467423041f5410901a810278c5d74fab417ab1e78",
-    "checkedAt": "2026-11-09T20:48:58Z",
+    "checkedAt": "2026-11-16T20:47:02Z",
     "fails": 0
   },
   "reg_e2d76195": {
     "hash": "ed434d239492bb00decdf95adc94d31b5434c88fdeb68b322aa0a96e1c1f1f7a",
-    "checkedAt": "2026-11-09T20:48:58Z",
+    "checkedAt": "2026-11-16T20:47:02Z",
     "fails": 0
   },
   "reg_42c5aaf2": {
-    "hash": "bd821c0ab7022cfa8936d4f323448e2dac9236804c9b9c9969a8e91163a2979d",
-    "checkedAt": "2026-11-09T20:48:58Z",
+    "hash": "85bebdc0be4a00a3b4f367bf799ec4faa469f6359240d28735a5b64458d797ed",
+    "checkedAt": "2026-11-16T20:47:02Z",
     "fails": 0
   },
   "reg_57322507": {
-    "fails": 4
+    "fails": 5
   },
   "reg_62312892": {
-    "hash": "4c51d0cc2b6c0041ff346166e8ebc8794e24c4800f2b4e70bddf5ced03567220",
-    "checkedAt": "2026-11-09T20:48:58Z",
+    "hash": "36efbaa18f900b35c21cdb9b5f943dc9540173a1b9ac3f2a7ff50189a6586212",
+    "checkedAt": "2026-11-16T20:47:02Z",
     "fails": 0
   },
   "reg_6f9b0736": {
-    "fails": 4
+    "fails": 5
   },
   "reg_2f94c01e": {
-    "hash": "3672a895c2c6b9c286a5b8aaf355718ae3b9912492101b34bc32e02e6af57dd7",
-    "checkedAt": "2026-11-09T20:48:58Z",
+    "hash": "86e61bd08a0ee4305320fd4cd4cf0aec289590f81af960115f6a7432a84b9500",
+    "checkedAt": "2026-11-16T20:47:02Z",
     "fails": 0
   },
   "reg_6f38ed42": {
     "hash": "b180495e3d138cd4aa347d8ea7b9907f4b21cb14e67937a7cf386b1c0690c83a",
-    "checkedAt": "2026-11-09T20:48:58Z",
+    "checkedAt": "2026-11-16T20:47:02Z",
     "fails": 0
   },
   "reg_f6f4152d": {
-    "hash": "d23a4f20410dd452f91554f3d8d44b99cfff80c17f114cfc5a41157ae40125c8",
-    "checkedAt": "2026-11-09T20:48:58Z",
+    "hash": "2eeddc9499cbbd4f4fbaaaa1ad7690c3fbf9a6a94fae12155194e490e81ab0e9",
+    "checkedAt": "2026-11-16T20:47:02Z",
     "fails": 0
   },
   "reg_42f9d507": {
-    "hash": "19f524a6c08151384a742f3127cfd2dde767bcb892d4a6c10899dc5f6ebdd13c",
-    "checkedAt": "2026-11-09T20:48:58Z",
+    "hash": "63c85dd2a3af3caf1dcb3eed97eefc3ca3fef3c33fdb45f7730debcb6e5e6445",
+    "checkedAt": "2026-11-16T20:47:02Z",
     "fails": 0
   },
   "reg_a3bac84b": {
-    "fails": 4
+    "hash": "90cecfa3aa1f4a20a18e4f5d32111c77be76bf5a78a2e85b73aa4a9f92ca31a8",
+    "checkedAt": "2026-11-16T20:47:02Z",
+    "fails": 0
   },
   "reg_24290eae": {
-    "hash": "cd012c8b237c5b48cbfeea0338b915b2691960882978b4971a2c2788e4e89122",
-    "checkedAt": "2026-11-09T20:48:58Z",
+    "hash": "3c675c7c994d4d538110744ab945c92196f9c1b7297731119ec5b1f37f15d2c9",
+    "checkedAt": "2026-11-16T20:47:02Z",
     "fails": 0
   },
   "reg_420445f9": {
-    "hash": "4f80c6677a21e9d95e6a22bffe330bc04e7aa2475e2b87b5c6f42dbdcec1b01d",
-    "checkedAt": "2026-11-09T20:48:58Z",
+    "hash": "69fe2799223942b6226bfd74e61cd8bf7aad96ef8f494c2ce11a1775ef9557a7",
+    "checkedAt": "2026-11-16T20:47:02Z",
     "fails": 0
   },
   "reg_311a60ec": {
     "hash": "8ee9ded76e8ad05f40c69758adc036033fa20505b4444665c73dcd5a6749fd03",
-    "checkedAt": "2026-11-09T20:48:58Z",
+    "checkedAt": "2026-11-16T20:47:02Z",
     "fails": 0
   },
   "reg_df307455": {
-    "fails": 4
+    "fails": 5
   },
   "reg_17627b26": {
     "hash": "42dc9a176935c0a0868e3f9733fd0e29fd1f7a067df6a0d6f62ad90458559255",
-    "checkedAt": "2026-11-09T20:48:58Z",
+    "checkedAt": "2026-11-16T20:47:02Z",
     "fails": 0
   }
 }

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-15T20:35:37Z",
+  "generatedAt": "2026-11-16T20:47:02Z",
   "monitoringMode": "scheduled",
   "importantDisclaimer": "Scheduled checks detect page-text changes only. A detected change is not a verified policy change; always confirm requirements and fees on the linked official source.",
   "sources": [
@@ -10,7 +10,7 @@
       "name": "Immigration New Zealand — visa and residence information",
       "url": "https://www.immigration.govt.nz/",
       "priority": "critical",
-      "checkedAt": "2026-11-15T20:35:37Z",
+      "checkedAt": "2026-11-16T20:47:02Z",
       "status": "changed",
       "title": "Immigration New Zealand :: Immigration New Zealand"
     },
@@ -20,7 +20,7 @@
       "name": "Immigration New Zealand — Accredited Employer Work Visa",
       "url": "https://www.immigration.govt.nz/visas/accredited-employer-work-visa/",
       "priority": "critical",
-      "checkedAt": "2026-11-15T20:35:37Z",
+      "checkedAt": "2026-11-16T20:47:02Z",
       "status": "changed",
       "title": "Accredited Employer Work Visa » Immigration New ZealandAccredited Employer Work Visa :: Immigration New Zealand"
     },
@@ -30,8 +30,8 @@
       "name": "Immigration New Zealand — Skilled Migrant Category trades and technician pathway",
       "url": "https://www.immigration.govt.nz/live/resident-visas-to-live-in-new-zealand/skilled-residence-pathways-in-new-zealand/skilled-migrant-category-pathway-to-residence/",
       "priority": "weekly",
-      "checkedAt": "2026-11-09T20:48:58Z",
-      "status": "ok",
+      "checkedAt": "2026-11-16T20:47:02Z",
+      "status": "changed",
       "title": "Getting New Zealand residence through the Skilled Migrant Category (SMC) :: Immigration New Zealand"
     },
     {
@@ -40,7 +40,7 @@
       "name": "NZQA — Recognise overseas qualifications",
       "url": "https://www2.nzqa.govt.nz/international/recognise-overseas-qual/",
       "priority": "critical",
-      "checkedAt": "2026-11-15T20:35:37Z",
+      "checkedAt": "2026-11-16T20:47:02Z",
       "status": "ok",
       "title": "Getting overseas qualifications recognised by NZQA - NZQA"
     },
@@ -50,7 +50,7 @@
       "name": "IRCC — Express Entry approved language tests",
       "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/documents/language-test.html",
       "priority": "critical",
-      "checkedAt": "2026-11-15T20:35:37Z",
+      "checkedAt": "2026-11-16T20:47:02Z",
       "status": "manual_check",
       "title": ""
     },
@@ -60,7 +60,7 @@
       "name": "IRCC — Federal Skilled Trades Program",
       "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/who-can-apply/federal-skilled-trades.html",
       "priority": "critical",
-      "checkedAt": "2026-11-15T20:35:37Z",
+      "checkedAt": "2026-11-16T20:47:02Z",
       "status": "manual_check",
       "title": ""
     },
@@ -70,7 +70,7 @@
       "name": "IRCC — Fees for economic immigration applications",
       "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/application/fees.html",
       "priority": "critical",
-      "checkedAt": "2026-11-15T20:35:37Z",
+      "checkedAt": "2026-11-16T20:47:02Z",
       "status": "manual_check",
       "title": ""
     },
@@ -80,7 +80,7 @@
       "name": "Department of Home Affairs — visa listing",
       "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing",
       "priority": "critical",
-      "checkedAt": "2026-11-15T20:35:37Z",
+      "checkedAt": "2026-11-16T20:47:02Z",
       "status": "ok",
       "title": "Visa list"
     },
@@ -90,7 +90,7 @@
       "name": "Department of Home Affairs — visa pricing estimator",
       "url": "https://immi.homeaffairs.gov.au/visas/visa-pricing-estimator",
       "priority": "critical",
-      "checkedAt": "2026-11-15T20:35:37Z",
+      "checkedAt": "2026-11-16T20:47:02Z",
       "status": "ok",
       "title": "Visa pricing estimator"
     },
@@ -100,7 +100,7 @@
       "name": "Trades Recognition Australia",
       "url": "https://www.tradesrecognitionaustralia.gov.au/",
       "priority": "weekly",
-      "checkedAt": "2026-11-15T20:35:37Z",
+      "checkedAt": "2026-11-16T20:47:02Z",
       "status": "manual_check",
       "title": ""
     },
@@ -123,8 +123,8 @@
         "welder",
         "fitter"
       ],
-      "checkedAt": "2026-11-15T20:35:37Z",
-      "status": "manual_check",
+      "checkedAt": "2026-11-16T20:47:02Z",
+      "status": "check_failed",
       "title": ""
     },
     {
@@ -136,8 +136,8 @@
       "careers": [
         "plumber"
       ],
-      "checkedAt": "2026-11-09T20:48:58Z",
-      "status": "ok",
+      "checkedAt": "2026-11-16T20:47:02Z",
+      "status": "changed",
       "title": "Plumbers, Gasfitters, and Drainlayers BoardHome Page"
     },
     {
@@ -149,7 +149,7 @@
       "careers": [
         "electrician"
       ],
-      "checkedAt": "2026-11-09T20:48:58Z",
+      "checkedAt": "2026-11-16T20:47:02Z",
       "status": "ok",
       "title": "Electrical Workers Registration Board"
     },
@@ -164,7 +164,7 @@
         "teacher_sec",
         "teacher_ece"
       ],
-      "checkedAt": "2026-11-09T20:48:58Z",
+      "checkedAt": "2026-11-16T20:47:02Z",
       "status": "ok",
       "title": "Qualification evaluation fees - NZQA"
     },
@@ -179,7 +179,7 @@
         "teacher_sec",
         "teacher_ece"
       ],
-      "checkedAt": "2026-11-09T20:48:58Z",
+      "checkedAt": "2026-11-16T20:47:02Z",
       "status": "changed",
       "title": "Home"
     },
@@ -202,7 +202,7 @@
         "radiographer",
         "dentist"
       ],
-      "checkedAt": "2026-11-09T20:48:58Z",
+      "checkedAt": "2026-11-16T20:47:02Z",
       "status": "ok",
       "title": "Canadian Information Centre for International Credentials"
     },
@@ -217,8 +217,8 @@
         "teacher_sec",
         "teacher_ece"
       ],
-      "checkedAt": "2026-11-09T20:48:58Z",
-      "status": "ok",
+      "checkedAt": "2026-11-16T20:47:02Z",
+      "status": "changed",
       "title": "International Credential Evaluation Services | NACES Member - WES"
     },
     {
@@ -232,7 +232,7 @@
         "teacher_sec",
         "teacher_ece"
       ],
-      "checkedAt": "2026-11-09T20:48:58Z",
+      "checkedAt": "2026-11-16T20:47:02Z",
       "status": "ok",
       "title": "AITSLAITSL - Australian Institute for Teaching and School Leadership"
     },
@@ -245,8 +245,8 @@
       "careers": [
         "nurse"
       ],
-      "checkedAt": "2026-11-09T20:48:58Z",
-      "status": "ok",
+      "checkedAt": "2026-11-16T20:47:02Z",
+      "status": "changed",
       "title": "Home"
     },
     {
@@ -258,7 +258,7 @@
       "careers": [
         "nurse"
       ],
-      "checkedAt": "2026-11-09T20:48:58Z",
+      "checkedAt": "2026-11-16T20:47:02Z",
       "status": "ok",
       "title": "Start your nursing journey in Canada. - National Nursing Assessment Service"
     },
@@ -272,8 +272,8 @@
         "nurse",
         "midwife"
       ],
-      "checkedAt": "2026-11-09T20:48:58Z",
-      "status": "ok",
+      "checkedAt": "2026-11-16T20:47:02Z",
+      "status": "changed",
       "title": "ANMAC | For a safe, capable nursing and midwifery workforce"
     },
     {
@@ -286,9 +286,9 @@
         "nurse",
         "midwife"
       ],
-      "checkedAt": "2026-11-15T20:35:37Z",
-      "status": "manual_check",
-      "title": ""
+      "checkedAt": "2026-11-16T20:47:02Z",
+      "status": "ok",
+      "title": "Nursing and Midwifery Board of Australia - Home"
     },
     {
       "id": "reg_8352b41d",
@@ -299,7 +299,7 @@
       "careers": [
         "midwife"
       ],
-      "checkedAt": "2026-11-09T20:48:58Z",
+      "checkedAt": "2026-11-16T20:47:02Z",
       "status": "ok",
       "title": "Home Page - Midwifery Council"
     },
@@ -312,8 +312,8 @@
       "careers": [
         "doctor"
       ],
-      "checkedAt": "2026-11-09T20:48:58Z",
-      "status": "changed",
+      "checkedAt": "2026-11-16T20:47:02Z",
+      "status": "ok",
       "title": "Medical Council of New Zealand · Te Kaunihera Rata o Aotearoa"
     },
     {
@@ -325,8 +325,8 @@
       "careers": [
         "doctor"
       ],
-      "checkedAt": "2026-11-15T20:35:37Z",
-      "status": "manual_check",
+      "checkedAt": "2026-11-16T20:47:02Z",
+      "status": "check_failed",
       "title": ""
     },
     {
@@ -338,8 +338,8 @@
       "careers": [
         "doctor"
       ],
-      "checkedAt": "2026-11-09T20:48:58Z",
-      "status": "changed",
+      "checkedAt": "2026-11-16T20:47:02Z",
+      "status": "ok",
       "title": "Australian Medical Council | The AMC’s purpose is to ensure that standards of education, training and assessment of the medical profession promote and protect the health of the Australian community."
     },
     {
@@ -351,8 +351,8 @@
       "careers": [
         "doctor"
       ],
-      "checkedAt": "2026-11-15T20:35:37Z",
-      "status": "manual_check",
+      "checkedAt": "2026-11-16T20:47:02Z",
+      "status": "check_failed",
       "title": ""
     },
     {
@@ -364,8 +364,8 @@
       "careers": [
         "pharmacist"
       ],
-      "checkedAt": "2026-11-09T20:48:58Z",
-      "status": "ok",
+      "checkedAt": "2026-11-16T20:47:02Z",
+      "status": "changed",
       "title": "Home-Page - Pharmacy Council NZ - Public Site"
     },
     {
@@ -377,7 +377,7 @@
       "careers": [
         "pharmacist"
       ],
-      "checkedAt": "2026-11-09T20:48:58Z",
+      "checkedAt": "2026-11-16T20:47:02Z",
       "status": "changed",
       "title": "Home - PEBC"
     },
@@ -390,8 +390,8 @@
       "careers": [
         "pharmacist"
       ],
-      "checkedAt": "2026-11-09T20:48:58Z",
-      "status": "ok",
+      "checkedAt": "2026-11-16T20:47:02Z",
+      "status": "changed",
       "title": "Home | Australian Pharmacy Council"
     },
     {
@@ -403,8 +403,8 @@
       "careers": [
         "pharmacist"
       ],
-      "checkedAt": "2026-11-15T20:35:37Z",
-      "status": "manual_check",
+      "checkedAt": "2026-11-16T20:47:02Z",
+      "status": "check_failed",
       "title": ""
     },
     {
@@ -416,8 +416,8 @@
       "careers": [
         "physio"
       ],
-      "checkedAt": "2026-11-09T20:48:58Z",
-      "status": "changed",
+      "checkedAt": "2026-11-16T20:47:02Z",
+      "status": "ok",
       "title": "Home - Physiotherapy Board of New Zealand"
     },
     {
@@ -429,7 +429,7 @@
       "careers": [
         "physio"
       ],
-      "checkedAt": "2026-11-09T20:48:58Z",
+      "checkedAt": "2026-11-16T20:47:02Z",
       "status": "ok",
       "title": "Home - Canadian Alliance of Physiotherapy RegulatorsCareer OpportunitiesVolunteer Opportunities"
     },
@@ -442,8 +442,8 @@
       "careers": [
         "physio"
       ],
-      "checkedAt": "2026-11-09T20:48:58Z",
-      "status": "ok",
+      "checkedAt": "2026-11-16T20:47:02Z",
+      "status": "changed",
       "title": "Australian Physiotherapy Council • Ensuring the quality of tomorrow's physios"
     },
     {
@@ -455,8 +455,8 @@
       "careers": [
         "physio"
       ],
-      "checkedAt": "2026-11-15T20:35:37Z",
-      "status": "manual_check",
+      "checkedAt": "2026-11-16T20:47:02Z",
+      "status": "check_failed",
       "title": ""
     },
     {
@@ -468,8 +468,8 @@
       "careers": [
         "mls"
       ],
-      "checkedAt": "2026-11-09T20:48:58Z",
-      "status": "ok",
+      "checkedAt": "2026-11-16T20:47:02Z",
+      "status": "changed",
       "title": "Home | Medical Sciences Council of New Zealand"
     },
     {
@@ -481,8 +481,8 @@
       "careers": [
         "mls"
       ],
-      "checkedAt": "2026-11-15T20:35:37Z",
-      "status": "manual_check",
+      "checkedAt": "2026-11-16T20:47:02Z",
+      "status": "check_failed",
       "title": ""
     },
     {
@@ -494,7 +494,7 @@
       "careers": [
         "mls"
       ],
-      "checkedAt": "2026-11-09T20:48:58Z",
+      "checkedAt": "2026-11-16T20:47:02Z",
       "status": "changed",
       "title": "Home | AIMS"
     },
@@ -507,7 +507,7 @@
       "careers": [
         "radiographer"
       ],
-      "checkedAt": "2026-11-09T20:48:58Z",
+      "checkedAt": "2026-11-16T20:47:02Z",
       "status": "ok",
       "title": "Home | Medical Radiation Technologists Board"
     },
@@ -520,7 +520,7 @@
       "careers": [
         "radiographer"
       ],
-      "checkedAt": "2026-11-09T20:48:58Z",
+      "checkedAt": "2026-11-16T20:47:02Z",
       "status": "changed",
       "title": "Canadian Association of Medical Radiation Technologists"
     },
@@ -533,8 +533,8 @@
       "careers": [
         "radiographer"
       ],
-      "checkedAt": "2026-11-09T20:48:58Z",
-      "status": "ok",
+      "checkedAt": "2026-11-16T20:47:02Z",
+      "status": "changed",
       "title": "Home - ASMIRTsearchclosechevron-rightchevron-downshopping-cartphonefacebookbarsenvelopelinkedininstagramuser-o"
     },
     {
@@ -546,9 +546,9 @@
       "careers": [
         "radiographer"
       ],
-      "checkedAt": "2026-11-15T20:35:37Z",
-      "status": "manual_check",
-      "title": ""
+      "checkedAt": "2026-11-16T20:47:02Z",
+      "status": "ok",
+      "title": "Medical Radiation Practice Board of Australia - Home"
     },
     {
       "id": "reg_24290eae",
@@ -559,8 +559,8 @@
       "careers": [
         "dentist"
       ],
-      "checkedAt": "2026-11-09T20:48:58Z",
-      "status": "ok",
+      "checkedAt": "2026-11-16T20:47:02Z",
+      "status": "changed",
       "title": "Protecting the health and safety of patients » Dental Council"
     },
     {
@@ -572,7 +572,7 @@
       "careers": [
         "dentist"
       ],
-      "checkedAt": "2026-11-09T20:48:58Z",
+      "checkedAt": "2026-11-16T20:47:02Z",
       "status": "changed",
       "title": "Home - The National Dental Examining Board of Canada"
     },
@@ -585,7 +585,7 @@
       "careers": [
         "dentist"
       ],
-      "checkedAt": "2026-11-09T20:48:58Z",
+      "checkedAt": "2026-11-16T20:47:02Z",
       "status": "ok",
       "title": "Home | The Australian Dental Council"
     },
@@ -598,8 +598,8 @@
       "careers": [
         "dentist"
       ],
-      "checkedAt": "2026-11-15T20:35:37Z",
-      "status": "manual_check",
+      "checkedAt": "2026-11-16T20:47:02Z",
+      "status": "check_failed",
       "title": ""
     }
   ],
@@ -970,63 +970,397 @@
       "detectedAt": "2026-11-15T20:35:37Z",
       "status": "needs_human_review",
       "message": "Page text changed since the last check. This may be minor (dates, wording). Open the source and confirm before acting."
+    },
+    {
+      "kind": "change",
+      "added": [
+        "Skip to main content Skip to main navigation Skip to secondary navigation Skip to search Planned upgrade Issued: Monday 16 Nov 2026, 04:00 pm NZDT From 05:00 to 07:30 Thursday 19 November (NZDT), you cannot access some v",
+        "Wait for 30 minutes and try again.",
+        "Check the applications affected by this upgrade: Planned upgrades for 2026 Process to apply For employers Login Visit Toro Visit Toro Learn what you need to do to visit New Zealand."
+      ],
+      "removed": [
+        "Skip to main content Skip to main navigation Skip to secondary navigation Skip to search Application system issue Issued: Friday 13 Nov 2026, 09:50 am NZDT Customers can now apply for visas again through our enhanced Imm",
+        "The processing of applications has resumed.",
+        "Impact of Microsoft outage Process to apply For employers Login Visit Toro Visit Toro Learn what you need to do to visit New Zealand."
+      ],
+      "id": "nz_visas",
+      "country": "New Zealand",
+      "title": "Immigration New Zealand — visa and residence information",
+      "url": "https://www.immigration.govt.nz/",
+      "detectedAt": "2026-11-16T20:47:02Z",
+      "status": "needs_human_review",
+      "message": "Page text changed since the last check. This may be minor (dates, wording). Open the source and confirm before acting."
+    },
+    {
+      "kind": "change",
+      "added": [
+        "Skip to main content Skip to main navigation Skip to secondary navigation Skip to search Planned upgrade Issued: Monday 16 Nov 2026, 04:00 pm NZDT From 05:00 to 07:30 Thursday 19 November (NZDT), you cannot access some v",
+        "Wait for 30 minutes and try again.",
+        "Check the applications affected by this upgrade: Planned upgrades for 2026 Process to apply For employers Login Visit Toro Visit Toro Learn what you need to do to visit New Zealand.",
+        "The screenshot you provide must include the QR code, and must be dated within one week (7 calendar days) of your application submission."
+      ],
+      "removed": [
+        "Skip to main content Skip to main navigation Skip to secondary navigation Skip to search Application system issue Issued: Friday 13 Nov 2026, 09:50 am NZDT Customers can now apply for visas again through our enhanced Imm",
+        "The processing of applications has resumed.",
+        "Impact of Microsoft outage Process to apply For employers Login Visit Toro Visit Toro Learn what you need to do to visit New Zealand."
+      ],
+      "id": "nz_aeWV",
+      "country": "New Zealand",
+      "title": "Immigration New Zealand — Accredited Employer Work Visa",
+      "url": "https://www.immigration.govt.nz/visas/accredited-employer-work-visa/",
+      "detectedAt": "2026-11-16T20:47:02Z",
+      "status": "needs_human_review",
+      "message": "Page text changed since the last check. This may be minor (dates, wording). Open the source and confirm before acting."
+    },
+    {
+      "kind": "change",
+      "added": [
+        "Skip to main content Skip to main navigation Skip to secondary navigation Skip to search Planned upgrade Issued: Monday 16 Nov 2026, 04:00 pm NZDT From 05:00 to 07:30 Thursday 19 November (NZDT), you cannot access some v",
+        "Wait for 30 minutes and try again.",
+        "Check the applications affected by this upgrade: Planned upgrades for 2026 Process to apply For employers Login Visit Toro Visit Toro Learn what you need to do to visit New Zealand.",
+        "The SMC may be an option if you have a skilled job or job offer in New Zealand and 1 of the following applies to you: you have a recognised qualification, like a bachelor's degree, master's degree or PhD you have eligibl"
+      ],
+      "removed": [
+        "Skip to main content Skip to main navigation Skip to secondary navigation Skip to search Process to apply For employers Login Visit Toro Visit Toro Learn what you need to do to visit New Zealand.",
+        "The SMC may be an option if you have a skilled job or job offer in New Zealand and 1 of the following applies to you: you have a recognised qualification, like a bachelor's degree, master's degree or PhD you have eligibl",
+        "You need to check whether your occupation is eligible and whether your qualification and work experience meets the requirements."
+      ],
+      "id": "nz_smctech",
+      "country": "New Zealand",
+      "title": "Immigration New Zealand — Skilled Migrant Category trades and technician pathway",
+      "url": "https://www.immigration.govt.nz/live/resident-visas-to-live-in-new-zealand/skilled-residence-pathways-in-new-zealand/skilled-migrant-category-pathway-to-residence/",
+      "detectedAt": "2026-11-16T20:47:02Z",
+      "status": "needs_human_review",
+      "message": "Page text changed since the last check. This may be minor (dates, wording). Open the source and confirm before acting."
+    },
+    {
+      "kind": "change",
+      "added": [
+        "Plumbers, Gasfitters and Drainlayers Board Apply for Registration Manage your Licence Advice for Consumers Complaints and Disciplinary Processes Resources Self-contained vehicles About the Board login Trade Login transla",
+        "For anything urgent please contact us on 0800 743 262.",
+        "We are the regulators for Plumbers, Gasfitters, and Drainlayers in Aotearoa New Zealand The Board protects the health and safety of the public by ensuring plumbers, gasfitters and drainlayers are competent to carry out r",
+        "arrow_forward Search the Register Due to the current Microsoft outage, we cannot access Outlook emails."
+      ],
+      "removed": [
+        "Plumbers, Gasfitters and Drainlayers Board Apply for Registration Manage your Licence Advice for Consumers Complaints and Disciplinary Processes Resources Self-contained vehicles About the Board login Trade Login transla",
+        "Find out more We are the regulators for Plumbers, Gasfitters, and Drainlayers in Aotearoa New Zealand The Board protects the health and safety of the public by ensuring plumbers, gasfitters and drainlayers are competent ",
+        "arrow_forward Search the Register Applications for the self-certification endorsement for plumbing and drainlaying are now open."
+      ],
+      "id": "reg_924f99eb",
+      "country": "New Zealand",
+      "title": "Plumbers, Gasfitters and Drainlayers Board",
+      "url": "https://www.pgdb.co.nz/",
+      "detectedAt": "2026-11-16T20:47:02Z",
+      "status": "needs_human_review",
+      "message": "Page text changed since the last check. This may be minor (dates, wording). Open the source and confirm before acting.",
+      "careers": [
+        "plumber"
+      ]
+    },
+    {
+      "kind": "change",
+      "added": [
+        "Menu Search About us Disciplinary Tribunal My Login Become a teacher Become a teacher Kia uru hei kaiako Kia uru hei kaiako Maintain my practising certificate Maintain my practising certificate Taku tiwhikete, kia tōmua,"
+      ],
+      "removed": [
+        "Menu Search About us Disciplinary Tribunal My Login Become a teacher Kia uru hei kaiako Maintain my practising certificate Taku tiwhikete, kia tōmua, kia pūmau, kia tūturū Grow my practice Taku whakaakoranga - whakapakar"
+      ],
+      "id": "reg_41ed5893",
+      "country": "New Zealand",
+      "title": "Teaching Council of Aotearoa New Zealand",
+      "url": "https://teachingcouncil.nz/",
+      "detectedAt": "2026-11-16T20:47:02Z",
+      "status": "needs_human_review",
+      "message": "Page text changed since the last check. This may be minor (dates, wording). Open the source and confirm before acting.",
+      "careers": [
+        "teacher_pri",
+        "teacher_sec",
+        "teacher_ece"
+      ]
+    },
+    {
+      "kind": "change",
+      "added": [
+        "Skip to navigation Skip to content Skip to footer Back to Homepage Help FAQ WES Tools Important WES Notices Contact WES About WES About WES Annual Reports Careers at WES Français English Credential Evaluations About Our ",
+        "Patricia Thao | September 12, 2025 Help FAQ WES Tools Important WES Notices Contact WES About WES About WES Annual Reports Careers at WES Français English Get an Evaluation Applicant Sign In Learn, work, and thrive in ne"
+      ],
+      "removed": [
+        "Skip to navigation Skip to content Skip to footer Back to Homepage Help Help Center WES Tools FAQ Important WES Notices Contact WES About WES About WES Annual Reports Careers at WES Français English Credential Evaluation",
+        "Patricia Thao | September 12, 2025 Help Help Center WES Tools FAQ Important WES Notices Contact WES About WES About WES Annual Reports Careers at WES Français English Get an Evaluation Applicant Sign In Learn, work, and "
+      ],
+      "id": "reg_59fd0125",
+      "country": "Canada",
+      "title": "Educational Credential Assessment (for Express Entry)",
+      "url": "https://www.wes.org/ca/",
+      "detectedAt": "2026-11-16T20:47:02Z",
+      "status": "needs_human_review",
+      "message": "Page text changed since the last check. This may be minor (dates, wording). Open the source and confirm before acting.",
+      "careers": [
+        "teacher_pri",
+        "teacher_sec",
+        "teacher_ece"
+      ]
+    },
+    {
+      "kind": "change",
+      "added": [
+        "Skip to main content NCNZ Work with us Log into MyNC Contact Toggle search Keyword search Toggle navigation Keyword search STATE FINAL EXAMINATION UPDATE: 17 & 18 NOVEMBER 2026 All State Final Examinations scheduled for ",
+        "Our exam software is independent of Microsoft, and the Council anticipates no disruptions .",
+        "We are the regulatory authority responsible for the registration of nurses."
+      ],
+      "removed": [
+        "Skip to main content NCNZ Work with us Log into MyNC Contact Toggle search Keyword search Toggle navigation Keyword search We are the regulatory authority responsible for the registration of nurses."
+      ],
+      "id": "reg_4558464a",
+      "country": "New Zealand",
+      "title": "Nursing Council of New Zealand",
+      "url": "https://www.nursingcouncil.org.nz/",
+      "detectedAt": "2026-11-16T20:47:02Z",
+      "status": "needs_human_review",
+      "message": "Page text changed since the last check. This may be minor (dates, wording). Open the source and confirm before acting.",
+      "careers": [
+        "nurse"
+      ]
+    },
+    {
+      "kind": "change",
+      "added": [
+        "*Numbers below are current as of FY 25-26 234 Accredited programs of study 98 Accredited education providers 17,000+ Skills assessments completed (FY24-25) Previous Previous Read our Annual Report Updates 1 2 Nurse Pract"
+      ],
+      "removed": [
+        "*Numbers below are current as of FY 25-26 234 Accredited programs of study 98 Accredited education providers 17,000+ Skills assessments completed (FY24-25) Previous Previous Read our Annual Report Updates 1 2 Nurse Pract",
+        "Read update Aug 10 2026 Skilled Migration That’s a wrap on the 2026 National Nursing Forum The forum provided a valuable opportunity to connect with nurses, educators, regulators and sector leaders, share insights, and c"
+      ],
+      "id": "reg_43469408",
+      "country": "Australia",
+      "title": "ANMAC — skills assessment for nurses and midwives",
+      "url": "https://www.anmac.org.au/",
+      "detectedAt": "2026-11-16T20:47:02Z",
+      "status": "needs_human_review",
+      "message": "Page text changed since the last check. This may be minor (dates, wording). Open the source and confirm before acting.",
+      "careers": [
+        "nurse",
+        "midwife"
+      ]
+    },
+    {
+      "kind": "change",
+      "added": [
+        "Pharmacist scopes of practice What you can expect from your pharmacist Make a complaint or raise a concern about a pharmacist Qualifications and training Resources & publications Decisions of the Health Practitioners Dis",
+        "If you need to contact the Pharmacy Council urgently, please call +64 4 495 0330 Read our latest newsletter here Consultation on proposed changes to fees and levy for 2027/2028 now open – read the consultation document h"
+      ],
+      "removed": [
+        "Pharmacist scopes of practice What you can expect from your pharmacist Make a complaint or raise a concern about a pharmacist Qualifications and training Resources & publications Decisions of the Health Practitioners Dis",
+        "For any queries or assistance during this time, please contact [email protected] and we will respond during office hours.",
+        "Read our latest newsletter here Consultation on proposed changes to fees and levy for 2027/2028 now open – read the consultation document here Welcome Nau mai, haere mai We protect the health, safety and wellbeing of the"
+      ],
+      "id": "reg_5c01ac29",
+      "country": "New Zealand",
+      "title": "Pharmacy Council of New Zealand",
+      "url": "https://www.pharmacycouncil.org.nz/",
+      "detectedAt": "2026-11-16T20:47:02Z",
+      "status": "needs_human_review",
+      "message": "Page text changed since the last check. This may be minor (dates, wording). Open the source and confirm before acting.",
+      "careers": [
+        "pharmacist"
+      ]
+    },
+    {
+      "kind": "change",
+      "added": [
+        "View all November 12, 2026 Pharmacy Technicians Results of Recent Pharmacy Technician Examination Results of the recent Pharmacy Technician Qualifying Examination - September 2026, listing PEBC ID of candidates who have ",
+        "October 15, 2026 Pharmacy Technicians Pharmacy Technician Qualifying Examination Applications The online applications are now OPEN for the April 2027 Pharmacy Technician Qualifying Examination."
+      ],
+      "removed": [
+        "View all October 15, 2026 Pharmacy Technicians Pharmacy Technician Qualifying Examination Applications The online applications are now OPEN for the April 2027 Pharmacy Technician Qualifying Examination.",
+        "March 9, 2026 Pharmacists, Pharmacy Technicians Welcoming New Leadership at PEBC Pharmacy Examining Board of Canada Appoints Richard Piticco as Chief Executive Officer...."
+      ],
+      "id": "reg_649f497a",
+      "country": "Canada",
+      "title": "Pharmacy Examining Board of Canada (PEBC)",
+      "url": "https://www.pebc.ca/",
+      "detectedAt": "2026-11-16T20:47:02Z",
+      "status": "needs_human_review",
+      "message": "Page text changed since the last check. This may be minor (dates, wording). Open the source and confirm before acting.",
+      "careers": [
+        "pharmacist"
+      ]
+    },
+    {
+      "kind": "change",
+      "added": [
+        "I want my pharmacy qualification recognised in Australia (so I can live or work in Australia) Skills Assessment I want to sit the CAOP® or OPRA® exam CAOP or KAPS I want to sit the Australian Intern Written Exam Intern W",
+        "Learn more Upcoming exam information 2026 Registration period Exam date Results Released Intern Written exam 4 August - 21 September 20 - 21 October 3 December The OPRA® exam 18 August - 19 October 23 - 25 November 22 De"
+      ],
+      "removed": [
+        "I want my pharmacy qualification recognised in Australia (so I can live or work in Australia) Skills Assessment I want to sit the CAOP® or OPRA® exam CAOP or KAPS I want to sit the Australian Intern Written Examination I",
+        "Learn more Upcoming exam information 2026 Registration period Exam date Results Released Intern Written exam 4 August - 21 September 20 - 21 October 3 December The OPRA® exam 8 April - 15 June 13 - 15 July 11 August The "
+      ],
+      "id": "reg_bd35ec76",
+      "country": "Australia",
+      "title": "Australian Pharmacy Council",
+      "url": "https://www.pharmacycouncil.org.au/",
+      "detectedAt": "2026-11-16T20:47:02Z",
+      "status": "needs_human_review",
+      "message": "Page text changed since the last check. This may be minor (dates, wording). Open the source and confirm before acting.",
+      "careers": [
+        "pharmacist"
+      ]
+    },
+    {
+      "kind": "change",
+      "added": [
+        "Latest Insights See more news 16 November 2026 Releases Express FLYR: your fast track to practising physiotherapy in Australia Learn more about Express FLYR: your fast track to practising physiotherapy in Australia 13 No",
+        "About us The Council The Village Our People Our Board Governance Strategic Plan Annual Reports Reconciliation Journey Careers Complaints ESG Framework Resources Australian University Programs Accredited CPD Physioplus Em"
+      ],
+      "removed": [
+        "Latest Insights See more news 26 October 2026 News Trusted partners.",
+        "About us The Council The Village Our People Our Board Governance Strategic Plan Annual Reports Reconciliation Journey Careers Complaints ESG Framework Resources Australian University Programs Accredited CPD Physioplus Em"
+      ],
+      "id": "reg_42c5aaf2",
+      "country": "Australia",
+      "title": "Australian Physiotherapy Council",
+      "url": "https://physiocouncil.com.au/",
+      "detectedAt": "2026-11-16T20:47:02Z",
+      "status": "needs_human_review",
+      "message": "Page text changed since the last check. This may be minor (dates, wording). Open the source and confirm before acting.",
+      "careers": [
+        "physio"
+      ]
+    },
+    {
+      "kind": "change",
+      "added": [
+        "Search the public register Register online Log in Menu Pre-registration About the professions Aotearoa NZ graduate - How to register Internationally qualified - How to register Online examination Already registered Recer",
+        "Search News View all News release Feedback on medical laboratory science scope of practice review 11 November 2026 Earlier this year the Council asked practitioners, stakeholders and members of the public to share their ",
+        "The feedback received has now been reviewed, and a summary report of the responses is available below.",
+        "News release Consultation: proposed changes to medical laboratory science practitioner fees 2027/28 15 October 2026 The Council is consulting on a proposal to increase medical laboratory science (MLS) practitioner fees f"
+      ],
+      "removed": [
+        "Internationally qualified: for information about how to register and provide referee details click the link: Pre-registration > Internationally qualified and view documents required.",
+        "× Search the public register Register online Log in Menu Pre-registration About the professions Aotearoa NZ graduate - How to register Internationally qualified - How to register Online examination Already registered Rec",
+        "Search News View all News release Consultation: proposed changes to medical laboratory science practitioner fees 2027/28 15 October 2026 The Council is consulting on a proposal to increase medical laboratory science (MLS"
+      ],
+      "id": "reg_62312892",
+      "country": "New Zealand",
+      "title": "Medical Sciences Council of New Zealand",
+      "url": "https://www.mscouncil.org.nz/",
+      "detectedAt": "2026-11-16T20:47:02Z",
+      "status": "needs_human_review",
+      "message": "Page text changed since the last check. This may be minor (dates, wording). Open the source and confirm before acting.",
+      "careers": [
+        "mls"
+      ]
+    },
+    {
+      "kind": "change",
+      "added": [
+        "MEMBER CENTRE ACTIVATE MY ACCOUNT Latest News view all Tribute to Robert (Bob) Dow FAIMS 13 November 2026 tribute to past member bruce dow, member, FAIMS, Life Member, Read more Celebrating a decade of service: Thank you",
+        "Read more 2026 QLD Branch Annual Meeting 13 October 2026 13 October 2026 Read more Upcoming Events view all QLD Tropical Division AGM and Pathology Week Webinar 17/11/26 Register AIMS TAS Branch Scientific Meeting 21/11/"
+      ],
+      "removed": [
+        "MEMBER CENTRE ACTIVATE MY ACCOUNT Latest News view all Celebrating a decade of service: Thank you, Denise Jackson 06 November 2026 Celebrating a decade of service: Thank you, Denise Jackson, AIMS President Read more Cele",
+        "Read more 2026 QLD Branch Annual Meeting 13 October 2026 13 October 2026 Read more 2026 QLD Branch Annual Meeting 17 September 2026 17 September 2026 Read more Every Medical Laboratory Scientist Counts in the 2026 Census",
+        "Read more Upcoming Events view all VIC Branch Pre-analytical in Pathology 10/11/26 Register SA/NT Branch Webinar: Transfusion in the field 13/11/26 Register QLD Tropical Division AGM and Pathology Week Webinar 17/11/26 R"
+      ],
+      "id": "reg_2f94c01e",
+      "country": "Australia",
+      "title": "Australian Institute of Medical and Clinical Scientists (AIMS)",
+      "url": "https://www.aims.org.au/",
+      "detectedAt": "2026-11-16T20:47:02Z",
+      "status": "needs_human_review",
+      "message": "Page text changed since the last check. This may be minor (dates, wording). Open the source and confirm before acting.",
+      "careers": [
+        "mls"
+      ]
+    },
+    {
+      "kind": "change",
+      "added": [
+        "View More Latest News View All News November 16, 2026 Member Monday – Sarah Burley Meet Your Fellow Members This series celebrates the people behind the profession and offers an opportunity to learn from and connect with",
+        "November 14, 2026 MRT Week Picture Reveal #6 MRT Week Picture Reveal #6 Click the link below to play our MRT Week picture reveal for today!",
+        "November 13, 2026 MRT Week Picture Reveal #5 MRT Week Picture Reveal #5 Click the link below to play our MRT Week picture reveal for today!",
+        "What is the remote used for?"
+      ],
+      "removed": [
+        "View More Latest News View All News November 9, 2026 Member Monday – Asha Johal Special Edition Member Monday: Meet Asha Johal!",
+        "In recognition of Remembrance Day this week on November 11th, we’re featuring a special edition of Member Monday… Read More...",
+        "November 9, 2026 A Message from the CEO: Happy MRT Week 2026!"
+      ],
+      "id": "reg_f6f4152d",
+      "country": "Canada",
+      "title": "Canadian Association of Medical Radiation Technologists (CAMRT)",
+      "url": "https://www.camrt.ca/",
+      "detectedAt": "2026-11-16T20:47:02Z",
+      "status": "needs_human_review",
+      "message": "Page text changed since the last check. This may be minor (dates, wording). Open the source and confirm before acting.",
+      "careers": [
+        "radiographer"
+      ]
+    },
+    {
+      "kind": "change",
+      "added": [
+        "Membership Membership Member benefits Practice resources & position statements CPD CPD Events ASMIRT ELEARNING Certification Advanced Practice Fellowship ASMIRT Conferences CPD endorsements CPD corporate & subscriber sch",
+        "3 September 2026 Read More 1 2 3 … 20 Next » Upcoming Events (view all) IV Cannulation and Radiographic Contrast Media Workshop 05 Dec 2026 Read More Anaphylaxis Recognition and Management Workshop 12 Dec 2026 Read More ",
+        "Subscription Form Contact Name Email SUBSCRIBE I agree to receive emails* ASMIRT CONTACT US Australian Society of Medical Imaging and Radiation Therapy Suite 1040-1044 (Level 10), 1 Queens Road Melbourne VIC 3004 Austral"
+      ],
+      "removed": [
+        "Membership Membership Member benefits Practice resources & position statements CPD CPD Events ASMIRT ELEARNING Certification Advanced Practice Fellowship ASMIRT Conferences CPD endorsements CPD corporate & subscriber sch",
+        "3 September 2026 Read More eLearning - One Free Course Vouchers 25 August 2026 Read More 1 2 3 … 20 Next » Upcoming Events (view all) VIC CEC Double Exposure: Two Workshops - One PD Day 14 Nov 2026 Read More Dorothy Lori",
+        "Subscription Form Updates Name Email SUBSCRIBE I agree to receive emails* ASMIRT CONTACT US Australian Society of Medical Imaging and Radiation Therapy Suite 1040-1044 (Level 10), 1 Queens Road Melbourne VIC 3004 Austral"
+      ],
+      "id": "reg_42f9d507",
+      "country": "Australia",
+      "title": "ASMIRT — skills assessment",
+      "url": "https://www.asmirt.org/",
+      "detectedAt": "2026-11-16T20:47:02Z",
+      "status": "needs_human_review",
+      "message": "Page text changed since the last check. This may be minor (dates, wording). Open the source and confirm before acting.",
+      "careers": [
+        "radiographer"
+      ]
+    },
+    {
+      "kind": "change",
+      "added": [
+        "I want to practise in New Zealand News and Updates View all NOVEMBER 12, 2026 Consultation outcome on updated standards framework published Consultation OCTOBER 28, 2026 Notice of new overseas registrants recertification"
+      ],
+      "removed": [
+        "I want to practise in New Zealand News and Updates View all OCTOBER 28, 2026 Notice of new overseas registrants recertification programme for oral health practitioners Update OCTOBER 14, 2026 Consultation on proposed upd"
+      ],
+      "id": "reg_24290eae",
+      "country": "New Zealand",
+      "title": "Dental Council of New Zealand",
+      "url": "https://www.dcnz.org.nz/",
+      "detectedAt": "2026-11-16T20:47:02Z",
+      "status": "needs_human_review",
+      "message": "Page text changed since the last check. This may be minor (dates, wording). Open the source and confirm before acting.",
+      "careers": [
+        "dentist"
+      ]
+    },
+    {
+      "kind": "change",
+      "added": [
+        "See all frequently asked questions → VISIT RESOURCES FOR MORE INFORMATION UPCOMING DATES Assessment of Clinical Judgement (ACJ) AUSTRALIA NEW ZEALAND Exam Date 5 May, 2027 Registration Deadline 05 April, 2027 21:00 ET Re"
+      ],
+      "removed": [
+        "See all frequently asked questions → VISIT RESOURCES FOR MORE INFORMATION UPCOMING DATES Virtual OSCE AUSTRALIA IRELAND Exam Date 1 March, 2027 Registration Deadline 18 January, 2027 21:00 ET Registration open date: 10 N"
+      ],
+      "id": "reg_420445f9",
+      "country": "Canada",
+      "title": "National Dental Examining Board of Canada (NDEB)",
+      "url": "https://ndeb-bned.ca/",
+      "detectedAt": "2026-11-16T20:47:02Z",
+      "status": "needs_human_review",
+      "message": "Page text changed since the last check. This may be minor (dates, wording). Open the source and confirm before acting.",
+      "careers": [
+        "dentist"
+      ]
     }
   ],
   "failures": [
-    {
-      "id": "reg_ac9fccbc",
-      "name": "Red Seal Program",
-      "url": "https://www.red-seal.ca/",
-      "error": "Could not be checked automatically. Open it and check by hand about once a week."
-    },
-    {
-      "id": "reg_c4649de9",
-      "name": "Nursing and Midwifery Board of Australia (AHPRA)",
-      "url": "https://www.nursingmidwiferyboard.gov.au/",
-      "error": "Could not be checked automatically. Open it and check by hand about once a week."
-    },
-    {
-      "id": "reg_40c560bc",
-      "name": "Medical Council of Canada",
-      "url": "https://mcc.ca/",
-      "error": "Could not be checked automatically. Open it and check by hand about once a week."
-    },
-    {
-      "id": "reg_522c92c0",
-      "name": "Medical Board of Australia (AHPRA)",
-      "url": "https://www.medicalboard.gov.au/",
-      "error": "Could not be checked automatically. Open it and check by hand about once a week."
-    },
-    {
-      "id": "reg_3289f93f",
-      "name": "Pharmacy Board of Australia (AHPRA)",
-      "url": "https://www.pharmacyboard.gov.au/",
-      "error": "Could not be checked automatically. Open it and check by hand about once a week."
-    },
-    {
-      "id": "reg_57322507",
-      "name": "Physiotherapy Board of Australia (AHPRA)",
-      "url": "https://www.physiotherapyboard.gov.au/",
-      "error": "Could not be checked automatically. Open it and check by hand about once a week."
-    },
-    {
-      "id": "reg_6f9b0736",
-      "name": "Canadian Society for Medical Laboratory Science (CSMLS)",
-      "url": "https://www.csmls.org/",
-      "error": "Could not be checked automatically. Open it and check by hand about once a week."
-    },
-    {
-      "id": "reg_a3bac84b",
-      "name": "Medical Radiation Practice Board of Australia (AHPRA)",
-      "url": "https://www.medicalradiationpracticeboard.gov.au/",
-      "error": "Could not be checked automatically. Open it and check by hand about once a week."
-    },
-    {
-      "id": "reg_df307455",
-      "name": "Dental Board of Australia (AHPRA)",
-      "url": "https://www.dentalboard.gov.au/",
-      "error": "Could not be checked automatically. Open it and check by hand about once a week."
-    },
     {
       "id": "ca_language",
       "name": "IRCC — Express Entry approved language tests",
@@ -1050,9 +1384,51 @@
       "name": "Trades Recognition Australia",
       "url": "https://www.tradesrecognitionaustralia.gov.au/",
       "error": "Blocks automatic checks. Open it and check by hand about once a week."
+    },
+    {
+      "id": "reg_ac9fccbc",
+      "name": "Red Seal Program",
+      "url": "https://www.red-seal.ca/",
+      "error": "page is empty even in a browser (probably blocked)"
+    },
+    {
+      "id": "reg_40c560bc",
+      "name": "Medical Council of Canada",
+      "url": "https://mcc.ca/",
+      "error": "page is empty even in a browser (probably blocked)"
+    },
+    {
+      "id": "reg_522c92c0",
+      "name": "Medical Board of Australia (AHPRA)",
+      "url": "https://www.medicalboard.gov.au/",
+      "error": "page is empty even in a browser (probably blocked)"
+    },
+    {
+      "id": "reg_3289f93f",
+      "name": "Pharmacy Board of Australia (AHPRA)",
+      "url": "https://www.pharmacyboard.gov.au/",
+      "error": "page is empty even in a browser (probably blocked)"
+    },
+    {
+      "id": "reg_57322507",
+      "name": "Physiotherapy Board of Australia (AHPRA)",
+      "url": "https://www.physiotherapyboard.gov.au/",
+      "error": "page is empty even in a browser (probably blocked)"
+    },
+    {
+      "id": "reg_6f9b0736",
+      "name": "Canadian Society for Medical Laboratory Science (CSMLS)",
+      "url": "https://www.csmls.org/",
+      "error": "Remote end closed connection without response; curl--http1.1 exit 56"
+    },
+    {
+      "id": "reg_df307455",
+      "name": "Dental Board of Australia (AHPRA)",
+      "url": "https://www.dentalboard.gov.au/",
+      "error": "page is empty even in a browser (probably blocked)"
     }
   ],
-  "newChangesDetected": 22,
-  "checksSucceeded": 5,
-  "checksFailed": 13
+  "newChangesDetected": 40,
+  "checksSucceeded": 35,
+  "checksFailed": 11
 }
