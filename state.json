@@ -1,12 +1,12 @@
 {
   "nz_visas": {
-    "hash": "86890f4584e2db8c2d2814987e21c17d93c7a39e65193cee6825ea8111713a40",
-    "checkedAt": "2026-11-16T20:47:02Z",
+    "hash": "8eebe7badab99e239801e75cf66f914327744138ca190fcc7d7301fa324ee995",
+    "checkedAt": "2026-11-17T20:49:06Z",
     "fails": 0
   },
   "nz_aeWV": {
     "hash": "2f6efb23fab15e859838d2ce2bde6afbadb3fb96fd62663ae1ebf3e46b70fad6",
-    "checkedAt": "2026-11-16T20:47:02Z",
+    "checkedAt": "2026-11-17T20:49:06Z",
     "fails": 0
   },
   "nz_smctech": {
@@ -16,17 +16,17 @@
   },
   "nzqa": {
     "hash": "03eab79d7fe3747c7dc86ffd84b069697ea41324bc1770fb8a89a3e77cc24272",
-    "checkedAt": "2026-11-16T20:47:02Z",
+    "checkedAt": "2026-11-17T20:49:06Z",
     "fails": 0
   },
   "au_visas": {
     "hash": "bbd3584ad78e614e8a7203f9b9a9b3b3033e34c2d4802405920780d31b5f1fd3",
-    "checkedAt": "2026-11-16T20:47:02Z",
+    "checkedAt": "2026-11-17T20:49:06Z",
     "fails": 0
   },
   "au_fees": {
     "hash": "d9521e6f3b1574b4cf1021b240624ef707f4f40f54e5bcf82a018377a1d1bce1",
-    "checkedAt": "2026-11-16T20:47:02Z",
+    "checkedAt": "2026-11-17T20:49:06Z",
     "fails": 0
   },
   "reg_ac9fccbc": {
